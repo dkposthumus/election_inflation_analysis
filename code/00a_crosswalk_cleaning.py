@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 # let's create a set of locals referring to our directory and working directory 
 home = Path.home()
-work_dir = (home / 'election_inflation_analysis')
+work_dir = (home / 'inflation_election / 'inflation_election')
 data = (work_dir / 'data')
 raw_data = (data / 'raw')
 clean_data = (data / 'clean')
@@ -38,7 +38,7 @@ county_state_crosswalk.to_csv(f'{clean_data}/county_msa_crosswalk_cleaned.csv',
                               index=False)
 
 # next, let's clean the county/fips crosswalk
-county_fips_crosswalk = pd.read_csv(f'{raw_data}/county_fips_crosswalk_raw.csv')
+county_fips_crosswalk = pd.read_csv(f'{clean_data}/county_fips_crosswalk_raw.csv')
 county_fips_crosswalk = county_fips_crosswalk.applymap(lambda x: x.lower() if isinstance(x, str) else x)
 county_fips_crosswalk.rename(columns={'fipscounty': 'fips',
                                       'countyname_fips': 'county'}, inplace=True)

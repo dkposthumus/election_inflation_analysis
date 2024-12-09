@@ -2,10 +2,13 @@ import requests
 import pandas as pd
 from pathlib import Path
 # let's create a set of locals referring to our directory and working directory 
-work_dir = Path('/Users/danpost/Dropbox/inflation_election')
+home = Path.home()
+work_dir = (home / 'election_inflation_analysis')
 data = (work_dir / 'data')
-election_data = (data / 'election_data')
-inflation_data = (data / 'inflation_data')
+raw_data = (data / 'raw')
+clean_data = (data / 'clean')
+input = (work_dir / 'input')
+output = (work_dir / 'output')
 code = Path.cwd() 
 
 # we need to define a dictionary with the series IDs by city / series:
@@ -73,7 +76,7 @@ for category, cat_code in zip(categories, category_codes):
 # Combine all DataFrames into a single panel DataFrame
 panel_df = pd.concat(data_frames, ignore_index=True)
 # Save to CSV for further analysis
-panel_df.to_csv(f'{inflation_data}/clean/msa_bls_cpi.csv', index=False)
+panel_df.to_csv(f'{clean_data}/msa_bls_cpi.csv', index=False)
 
 msa_cpi_df = panel_df.copy()
 # first create yearmonth variable
@@ -99,4 +102,4 @@ def calculate_cumulative_inflation(row):
 msa_cpi_pivoted['cumulative biden inflation'] = msa_cpi_pivoted.apply(calculate_cumulative_inflation, axis=1)
 msa_cpi_pivoted = msa_cpi_pivoted[['cumulative biden inflation']]
 # export cumulative inflation file
-msa_cpi_pivoted.to_csv(f'{inflation_data}/clean/cpi_cumulative.csv', index=True)
+msa_cpi_pivoted.to_csv(f'{clean_data}/cpi_cumulative.csv', index=True)

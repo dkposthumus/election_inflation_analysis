@@ -1,14 +1,17 @@
 import pandas as pd
 from pathlib import Path
 # let's create a set of locals referring to our directory and working directory 
-work_dir = Path('/Users/danpost/Dropbox/inflation_election')
+home = Path.home()
+work_dir = (home / 'election_inflation_analysis')
 data = (work_dir / 'data')
-election_data = (data / 'election_data')
-inflation_data = (data / 'inflation_data')
+raw_data = (data / 'raw')
+clean_data = (data / 'clean')
+input = (work_dir / 'input')
+output = (work_dir / 'output')
 code = Path.cwd() 
 
-historical_election = pd.read_csv(f'{election_data}/raw/county_pres_2000_2020.csv')
-election_2024 = pd.read_excel(f'{election_data}/raw/(2024-12-05) Pres_Election_Data_2024_0.6.xlsx', sheet_name='County')
+historical_election = pd.read_csv(f'{raw_data}/county_pres_2000_2020.csv')
+election_2024 = pd.read_excel(f'{raw_data}/(2024-12-05) Pres_Election_Data_2024_0.6.xlsx', sheet_name='County')
 
 # first filter historical election to include only 2020 elections
 election_2020 = historical_election[historical_election['year'] == 2020]
@@ -85,4 +88,4 @@ trump_2020_2024['trump %, 2024'] = trump_2020_2024['trump %, 2024'].astype('floa
 # let's make another column, change in trump vote share
 trump_2020_2024['2020-2024 swing'] = trump_2020_2024['trump %, 2024'] - trump_2020_2024['trump %, 2020']
 
-trump_2020_2024.to_csv(f'{election_data}/clean/trump_2020_2024.csv', index=False)
+trump_2020_2024.to_csv(f'{clean_data}/trump_2020_2024.csv', index=False)

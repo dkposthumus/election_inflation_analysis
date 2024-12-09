@@ -4,15 +4,17 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import linregress
 # let's create a set of locals referring to our directory and working directory 
-work_dir = Path('/Users/danpost/Dropbox/inflation_election')
+home = Path.home()
+work_dir = (home / 'election_inflation_analysis')
 data = (work_dir / 'data')
-election_data = (data / 'election_data')
-inflation_data = (data / 'inflation_data')
+raw_data = (data / 'raw')
+clean_data = (data / 'clean')
+input = (work_dir / 'input')
 output = (work_dir / 'output')
 code = Path.cwd() 
 
 # read master dataset 
-master_filtered = pd.read_csv(f'{data}/msa_level_master.csv')
+master_filtered = pd.read_csv(f'{clean_data}/msa_level_master.csv')
 master_filtered = master_filtered[master_filtered['_merge'] == 'both']
 categories = ['rent', 'food', 'apparel', 'transportation', 'medical care', 
               'recreation', 'education and communication', 'motor fuel']
@@ -35,7 +37,7 @@ for category in categories:
     plt.show()
 
 # read in BEA master dataset and plot 
-master_filtered = pd.read_csv(f'{data}/bea_county_msa_master.csv')
+master_filtered = pd.read_csv(f'{clean_data}/bea_county_msa_master.csv')
 master_filtered = master_filtered[master_filtered['_merge'] == 'both']
 categories = ['all items', 'goods', 'housing', 'other services', 'utilities']
 master_filtered = master_filtered[master_filtered['msa']!='boston-cambridge-newton']

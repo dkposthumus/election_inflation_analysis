@@ -1,14 +1,17 @@
 import pandas as pd
 from pathlib import Path
 # let's create a set of locals referring to our directory and working directory 
-work_dir = Path('/Users/thuymle/Dropbox/SIEPR Projects/Inflation and Election Swings')
+home = Path.home()
+work_dir = (home / 'election_inflation_analysis')
 data = (work_dir / 'data')
-election_data = (data / 'election_data')
-inflation_data = (data / 'inflation_data')
+raw_data = (data / 'raw')
+clean_data = (data / 'clean')
+input = (work_dir / 'input')
+output = (work_dir / 'output')
 code = Path.cwd() 
 
 # we need to clean/prepare MSA-level data from the BEA for RPP (price parity)
-raw_bea_msa = pd.read_excel(inflation_data / 'raw/bea_msa_rpp.xlsx', skiprows=5)
+raw_bea_msa = pd.read_excel(f'{raw_data}/bea_msa_rpp.xlsx', skiprows=5)
 '''
 We have a few problems/features of this dataset to clean:
 - reshape long to create a panel dataset 
@@ -51,6 +54,5 @@ msa_rpp_df.rename(columns = {
     'GeoName': 'msa',
     'Description': 'category'
     }, inplace=True)
-
 # save the dataset
-msa_rpp_df.to_csv(f'{inflation_data}/clean/bea_msa_rpp.csv', index=False)
+msa_rpp_df.to_csv(f'{clean_data}/bea_msa_rpp.csv', index=False)
