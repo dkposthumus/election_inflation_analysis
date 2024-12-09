@@ -1,0 +1,666 @@
+regionname,inflation,vote_swing,msa
+"aberdeen, wa",,,
+"abilene, tx",27.78312682389447,2.4035707342521584,"Abilene, TX MSAAbilene, TX MSAAbilene, TX MSA"
+"ada, ok",,,
+"adrian, mi",,,
+"aguadilla, pr",,,"Aguadilla, PR MSAAguadilla, PR MSAAguadilla, PR MSAAguadilla, PR MSAAguadilla, PR MSAAguadilla, PR MSAAguadilla, PR MSA"
+"akron, oh",37.68634152056808,1.465225754098698,"Akron, OH MSAAkron, OH MSA"
+"alamogordo, nm",,,
+"albany, ga",35.493160988766824,0.8568089007409629,"Albany, GA MSAAlbany, GA MSAAlbany, GA MSAAlbany, GA MSA"
+"albany, ny",26.948290051129852,3.2718927097434456,"Albany-Schenectady-Troy, NY MSAAlbany-Schenectady-Troy, NY MSAAlbany-Schenectady-Troy, NY MSAAlbany-Schenectady-Troy, NY MSAAlbany-Schenectady-Troy, NY MSA"
+"albany, or",,0.44375004124425077,"Albany, OR MSA"
+"albemarle, nc",,,
+"albuquerque, nm",39.31816071701753,1.8568667253241744,"Albuquerque, NM MSAAlbuquerque, NM MSAAlbuquerque, NM MSAAlbuquerque, NM MSA"
+"alexandria, la",,,"Alexandria, LA MSAAlexandria, LA MSA"
+"allentown, pa",31.637525863739214,1.8285624743047568,"Allentown-Bethlehem-Easton, PA-NJ MSAAllentown-Bethlehem-Easton, PA-NJ MSAAllentown-Bethlehem-Easton, PA-NJ MSAAllentown-Bethlehem-Easton, PA-NJ MSA"
+"altoona, pa",,-0.08394289131480326,"Altoona, PA MSA"
+"altus, ok",,,
+"amarillo, tx",25.23859648700878,1.900271870503123,"Amarillo, TX MSAAmarillo, TX MSAAmarillo, TX MSAAmarillo, TX MSAAmarillo, TX MSA"
+"ames, ia",16.120915206337646,3.4390643686951936,"Ames, IA MSAAmes, IA MSA"
+"amherst town, ma",,2.2262706023207066,"Amherst Town-Northampton, MA MSA"
+"amsterdam, ny",,,
+"anchorage, ak",28.89849785416889,,"Anchorage, AK MSAAnchorage, AK MSA"
+"ann arbor, mi",31.91862501214114,0.49893349502488915,"Ann Arbor, MI MSA"
+"anniston, al",,2.9086976023063538,"Anniston-Oxford, AL MSA"
+"appleton, wi",,0.30137782792233336,"Appleton, WI MSAAppleton, WI MSA"
+"ardmore, ok",,,
+"arecibo, pr",,,"Arecibo, PR MSAArecibo, PR MSAArecibo, PR MSAArecibo, PR MSA"
+"asheville, nc",41.943306001330896,-1.6918236203644466,"Asheville, NC MSAAsheville, NC MSAAsheville, NC MSA"
+"ashland, oh",,,
+"astoria, or",,,
+"athens, ga",40.3936822312793,2.4014037572119507,"Athens-Clarke County, GA MSAAthens-Clarke County, GA MSAAthens-Clarke County, GA MSAAthens-Clarke County, GA MSA"
+"athens, oh",,,
+"athens, tn",,,
+"athens, tx",,,
+"atlanta, ga",29.2394745316748,0.8054285096214919,"Atlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSAAtlanta-Sandy Springs-Roswell, GA MSA"
+"atlantic city, nj",48.09306198529408,3.9700413216516353,"Atlantic City-Hammonton, NJ MSAAtlantic City-Hammonton, NJ MSA"
+"auburn, al",37.55863043919208,4.334584837212219,"Auburn-Opelika, AL MSAAuburn-Opelika, AL MSA"
+"auburn, in",,,
+"auburn, ny",,,
+"augusta, ga",32.78834581221416,1.7963187961717808,"Augusta-Richmond County, GA-SC MSAAugusta-Richmond County, GA-SC MSAAugusta-Richmond County, GA-SC MSAAugusta-Richmond County, GA-SC MSAAugusta-Richmond County, GA-SC MSAAugusta-Richmond County, GA-SC MSAAugusta-Richmond County, GA-SC MSA"
+"augusta, me",44.76951858372731,,
+"austin, mn",,,
+"austin, tx",20.76855796861012,3.143517801372825,"Austin-Round Rock-San Marcos, TX MSAAustin-Round Rock-San Marcos, TX MSAAustin-Round Rock-San Marcos, TX MSAAustin-Round Rock-San Marcos, TX MSAAustin-Round Rock-San Marcos, TX MSA"
+"bakersfield, ca",37.02426073066246,5.392081621214184,"Bakersfield-Delano, CA MSA"
+"baltimore, md",24.858320385578477,0.7451885072011499,"Baltimore-Columbia-Towson, MD MSABaltimore-Columbia-Towson, MD MSABaltimore-Columbia-Towson, MD MSABaltimore-Columbia-Towson, MD MSABaltimore-Columbia-Towson, MD MSABaltimore-Columbia-Towson, MD MSABaltimore-Columbia-Towson, MD MSA"
+"bangor, me",36.62873423797832,2.439113003295379,"Bangor, ME MSA"
+"baraboo, wi",,,
+"bardstown, ky",,,
+"barnstable town, ma",44.031499948643486,2.1074161689674744,"Barnstable Town, MA MSA"
+"barre, vt",,,
+"bartlesville, ok",,,
+"batesville, ar",,,
+"baton rouge, la",19.404959984531235,,"Baton Rouge, LA MSABaton Rouge, LA MSABaton Rouge, LA MSABaton Rouge, LA MSABaton Rouge, LA MSABaton Rouge, LA MSABaton Rouge, LA MSABaton Rouge, LA MSABaton Rouge, LA MSABaton Rouge, LA MSA"
+"battle creek, mi",,1.6375361881078687,"Battle Creek, MI MSA"
+"bay city, mi",,1.7470802725639278,"Bay City, MI MSA"
+"bay city, tx",,,
+"beatrice, ne",,,
+"beaumont, tx",22.73210857077757,3.69491188208807,"Beaumont-Port Arthur, TX MSABeaumont-Port Arthur, TX MSABeaumont-Port Arthur, TX MSA"
+"beaver dam, wi",,,
+"beckley, wv",,1.6200646179407308,"Beckley, WV MSABeckley, WV MSA"
+"bellingham, wa",36.19847503775638,-0.7268561900152348,"Bellingham, WA MSA"
+"bemidji, mn",,,
+"bend, or",21.851726488323163,-0.7587061871260126,"Bend, OR MSABend, OR MSABend, OR MSA"
+"bennington, vt",,,
+"big rapids, mi",,,
+"big spring, tx",,,
+"billings, mt",33.818311465678946,1.4947658391571084,"Billings, MT MSABillings, MT MSABillings, MT MSA"
+"binghamton, ny",50.99104124963929,2.332762112333725,"Binghamton, NY MSABinghamton, NY MSA"
+"birmingham, al",27.09768626321043,1.6963321372373552,"Birmingham, AL MSABirmingham, AL MSABirmingham, AL MSABirmingham, AL MSABirmingham, AL MSABirmingham, AL MSABirmingham, AL MSA"
+"bismarck, nd",25.71544695828592,1.52650462016648,"Bismarck, ND MSABismarck, ND MSABismarck, ND MSA"
+"blackfoot, id",,,
+"blacksburg, va",36.795917353898815,1.3989919918019456,"Blacksburg-Christiansburg-Radford, VA MSABlacksburg-Christiansburg-Radford, VA MSABlacksburg-Christiansburg-Radford, VA MSABlacksburg-Christiansburg-Radford, VA MSABlacksburg-Christiansburg-Radford, VA MSA"
+"bloomington, il",52.38390766344627,-0.30374199238985544,"Bloomington, IL MSA"
+"bloomington, in",31.846015735824224,0.6396413538790113,"Bloomington, IN MSABloomington, IN MSA"
+"bloomsburg, pa",25.924544007378685,,
+"bluefield, wv",,,
+"boise city, id",28.282791167800887,3.679002890127714,"Boise City, ID MSABoise City, ID MSABoise City, ID MSABoise City, ID MSABoise City, ID MSA"
+"bonham, tx",,,
+"boone, nc",,,
+"boston, ma",33.698626625179664,3.9183338819868907,"Boston-Cambridge-Newton, MA-NH MSABoston-Cambridge-Newton, MA-NH MSABoston-Cambridge-Newton, MA-NH MSABoston-Cambridge-Newton, MA-NH MSABoston-Cambridge-Newton, MA-NH MSABoston-Cambridge-Newton, MA-NH MSABoston-Cambridge-Newton, MA-NH MSA"
+"boulder, co",27.961373256811477,0.1585532835938902,"Boulder, CO MSA"
+"bowling green, ky",31.126705917265436,3.180178794273769,"Bowling Green, KY MSABowling Green, KY MSABowling Green, KY MSABowling Green, KY MSA"
+"bozeman, mt",,2.1205088818609052,"Bozeman, MT MSA"
+"brainerd, mn",,,
+"branson, mo",,,
+"breckenridge, co",,,
+"bremerton, wa",30.156711703838724,-1.1376279345298612,"Bremerton-Silverdale-Port Orchard, WA MSA"
+"brenham, tx",,,
+"brevard, nc",,,
+"bridgeport, ct",31.67865367419647,,"Bridgeport-Stamford-Danbury, CT MSABridgeport-Stamford-Danbury, CT MSA"
+"brookings, sd",,,
+"brownsville, tx",29.683812063627734,9.493783545898038,"Brownsville-Harlingen, TX MSA"
+"brunswick, ga",,1.9407822991277413,"Brunswick-St. Simons, GA MSABrunswick-St. Simons, GA MSABrunswick-St. Simons, GA MSA"
+"buffalo, ny",33.59867550057708,3.4698689980180166,"Buffalo-Cheektowaga, NY MSABuffalo-Cheektowaga, NY MSA"
+"burlington, nc",48.65734863837562,-0.13334300758685025,"Burlington, NC MSA"
+"burlington, vt",37.09074570877959,1.2604322955439506,"Burlington-South Burlington, VT MSABurlington-South Burlington, VT MSABurlington-South Burlington, VT MSA"
+"butte, mt",,,
+"ca-¦on city, co",,,
+"cadillac, mi",,,
+"calhoun, ga",,,
+"california, md",29.89899363295593,,
+"cambridge, oh",,,
+"canton, oh",35.83099383064952,1.9585628159826785,"Canton-Massillon, OH MSACanton-Massillon, OH MSA"
+"cape coral, fl",45.22019063445817,4.387667564013076,"Cape Coral-Fort Myers, FL MSA"
+"cape girardeau, mo",,1.184918642253352,"Cape Girardeau, MO-IL MSACape Girardeau, MO-IL MSACape Girardeau, MO-IL MSA"
+"carbondale, il",22.218334612875555,,
+"carlsbad, nm",,,
+"carson city, nv",,,"Carson City, NV MSA"
+"casper, wy",32.466049793620286,1.3255972545216266,"Casper, WY MSA"
+"cedar city, ut",,,
+"cedar rapids, ia",20.551643858302235,2.1330002519178715,"Cedar Rapids, IA MSACedar Rapids, IA MSACedar Rapids, IA MSA"
+"centralia, wa",,,
+"chambersburg, pa",33.5443150379104,-0.042962625929798826,"Chambersburg, PA MSA"
+"champaign, il",29.23178515233671,-0.3792645837984776,"Champaign-Urbana, IL MSAChampaign-Urbana, IL MSAChampaign-Urbana, IL MSA"
+"charleston, il",,,
+"charleston, sc",45.41551537575673,3.233093954126848,"Charleston-North Charleston, SC MSACharleston-North Charleston, SC MSACharleston-North Charleston, SC MSA"
+"charleston, wv",23.359525767964964,1.0573070005304608,"Charleston, WV MSACharleston, WV MSACharleston, WV MSA"
+"charlotte, nc",30.4913702514764,0.7745105556246967,"Charlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSACharlotte-Concord-Gastonia, NC-SC MSA"
+"charlottesville, va",30.751171509548154,0.3160830494768119,"Charlottesville, VA MSACharlottesville, VA MSACharlottesville, VA MSACharlottesville, VA MSACharlottesville, VA MSA"
+"chattanooga, tn",35.73911682444878,1.8465975363456844,"Chattanooga, TN-GA MSAChattanooga, TN-GA MSAChattanooga, TN-GA MSAChattanooga, TN-GA MSAChattanooga, TN-GA MSAChattanooga, TN-GA MSA"
+"cheyenne, wy",22.42546821245213,3.0626736333302818,"Cheyenne, WY MSA"
+"chicago, il",31.996884509941676,3.629306493156448,"Chicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSAChicago-Naperville-Elgin, IL-IN MSA"
+"chico, ca",21.635182544272705,2.1691027801784113,"Chico, CA MSA"
+"cincinnati, oh",34.89740184277893,1.0857425560623746,"Cincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSACincinnati, OH-KY-IN MSA"
+"clarksburg, wv",,,
+"clarksville, tn",32.66317342946674,2.985693363501374,"Clarksville, TN-KY MSAClarksville, TN-KY MSAClarksville, TN-KY MSAClarksville, TN-KY MSA"
+"clearlake, ca",,,
+"cleveland, oh",32.93836705210202,1.6607384299710704,"Cleveland, OH MSACleveland, OH MSACleveland, OH MSACleveland, OH MSACleveland, OH MSACleveland, OH MSA"
+"cleveland, tn",34.53350070984446,2.137652464517892,"Cleveland, TN MSACleveland, TN MSA"
+"clovis, nm",,,
+"coeur d'alene, id",28.065603115711387,4.542314189332652,"Coeur d'Alene, ID MSA"
+"college station, tx",29.09027066035053,5.448307967425459,"College Station-Bryan, TX MSACollege Station-Bryan, TX MSACollege Station-Bryan, TX MSA"
+"colorado springs, co",25.047194244526626,-0.002424095079744948,"Colorado Springs, CO MSAColorado Springs, CO MSA"
+"columbia, mo",43.725437507618125,1.4921438216370875,"Columbia, MO MSAColumbia, MO MSAColumbia, MO MSA"
+"columbia, sc",36.65051425607227,2.618450457401317,"Columbia, SC MSAColumbia, SC MSAColumbia, SC MSAColumbia, SC MSAColumbia, SC MSAColumbia, SC MSA"
+"columbus, ga",32.12523429969369,1.706604080486701,"Columbus, GA-AL MSAColumbus, GA-AL MSAColumbus, GA-AL MSAColumbus, GA-AL MSAColumbus, GA-AL MSAColumbus, GA-AL MSAColumbus, GA-AL MSA"
+"columbus, in",26.65769750602594,0.5904952216820414,"Columbus, IN MSA"
+"columbus, ms",,,
+"columbus, oh",30.829667216035567,1.5299739238699706,"Columbus, OH MSAColumbus, OH MSAColumbus, OH MSAColumbus, OH MSAColumbus, OH MSAColumbus, OH MSAColumbus, OH MSAColumbus, OH MSAColumbus, OH MSAColumbus, OH MSA"
+"concord, nh",,,
+"cookeville, tn",,,
+"coos bay, or",,,
+"corning, ny",,,
+"corpus christi, tx",16.96244892461921,4.43178651966517,"Corpus Christi, TX MSACorpus Christi, TX MSACorpus Christi, TX MSA"
+"corsicana, tx",,,
+"cortland, ny",,,
+"corvallis, or",45.32543344991455,0.06438871152011916,"Corvallis, OR MSA"
+"crawfordsville, in",,,
+"crestview, fl",36.64811620627753,2.2904755510529506,"Crestview-Fort Walton Beach-Destin, FL MSACrestview-Fort Walton Beach-Destin, FL MSA"
+"crossville, tn",,,
+"cullman, al",,,
+"cullowhee, nc",,,
+"cumberland, md",,,
+"dallas, tx",26.33869638099544,3.6465646577460706,"Dallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSADallas-Fort Worth-Arlington, TX MSA"
+"dalton, ga",,1.9868149542126678,"Dalton, GA MSADalton, GA MSA"
+"danville, il",,,
+"danville, ky",,,
+"danville, va",,,
+"daphne, al",31.961095152116215,2.1916403700491305,"Daphne-Fairhope-Foley, AL MSA"
+"davenport, ia",23.818237707260717,2.384809438068647,"Davenport-Moline-Rock Island, IA-IL MSADavenport-Moline-Rock Island, IA-IL MSADavenport-Moline-Rock Island, IA-IL MSADavenport-Moline-Rock Island, IA-IL MSA"
+"dayton, oh",34.23684812285069,0.9057193916085282,"Dayton-Kettering-Beavercreek, OH MSADayton-Kettering-Beavercreek, OH MSADayton-Kettering-Beavercreek, OH MSA"
+"decatur, al",,2.2286445859665327,"Decatur, AL MSADecatur, AL MSA"
+"decatur, il",,0.6985526013246091,"Decatur, IL MSA"
+"deltona, fl",36.51412123483281,3.719071878504776,"Deltona-Daytona Beach-Ormond Beach, FL MSADeltona-Daytona Beach-Ormond Beach, FL MSA"
+"denver, co",25.702098591196474,1.8218502352105648,"Denver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSADenver-Aurora-Centennial, CO MSA"
+"des moines, ia",18.62940731076346,2.1244893337652284,"Des Moines-West Des Moines, IA MSADes Moines-West Des Moines, IA MSADes Moines-West Des Moines, IA MSADes Moines-West Des Moines, IA MSADes Moines-West Des Moines, IA MSADes Moines-West Des Moines, IA MSA"
+"detroit, mi",29.186258104705832,2.511444482394337,"Detroit-Warren-Dearborn, MI MSADetroit-Warren-Dearborn, MI MSADetroit-Warren-Dearborn, MI MSADetroit-Warren-Dearborn, MI MSADetroit-Warren-Dearborn, MI MSADetroit-Warren-Dearborn, MI MSA"
+"dickinson, nd",,,
+"dothan, al",,2.6436118521885987,"Dothan, AL MSADothan, AL MSADothan, AL MSA"
+"dover, de",32.35333212228825,0.966555562680993,"Dover, DE MSA"
+"dublin, ga",,,
+"dubuque, ia",,2.7524493643690917,"Dubuque, IA MSA"
+"duluth, mn",23.698811585452365,2.153748019449236,"Duluth, MN-WI MSADuluth, MN-WI MSADuluth, MN-WI MSA"
+"duncan, ok",,,
+"durango, co",,,
+"durant, ok",,,
+"durham, nc",29.038624703026034,0.19968861297062213,"Durham-Chapel Hill, NC MSADurham-Chapel Hill, NC MSADurham-Chapel Hill, NC MSADurham-Chapel Hill, NC MSA"
+"dyersburg, tn",,,
+"eagle pass, tx",,14.132055931649157,"Eagle Pass, TX MSA"
+"east stroudsburg, pa",35.73048619255743,,
+"easton, md",,,
+"eau claire, wi",,0.7741364706127574,"Eau Claire, WI MSAEau Claire, WI MSA"
+"edwards, co",,,
+"el centro, ca",,12.397177388526332,"El Centro, CA MSA"
+"el paso, tx",33.452333779707544,10.073847893137222,"El Paso, TX MSAEl Paso, TX MSA"
+"elizabeth city, nc",,,
+"elizabethtown, ky",,2.7050185857681375,"Elizabethtown, KY MSAElizabethtown, KY MSA"
+"elkhart, in",,1.9851701067329586,"Elkhart-Goshen, IN MSA"
+"elko, nv",,,
+"ellensburg, wa",,,
+"elmira, ny",,4.846015668715187,"Elmira, NY MSA"
+"emporia, ks",,,
+"enid, ok",,0.3037609611803327,"Enid, OK MSA"
+"enterprise, al",37.67699096110517,,
+"erie, pa",35.62449660278107,1.1305573828355509,"Erie, PA MSA"
+"eugene, or",32.37813962560384,0.4754310673912021,"Eugene-Springfield, OR MSA"
+"eureka, ca",,,
+"evansville, in",32.71544408726751,1.58831720943855,"Evansville, IN MSAEvansville, IN MSAEvansville, IN MSA"
+"fairbanks, ak",,,"Fairbanks-College, AK MSA"
+"fairmont, wv",,,
+"fallon, nv",,,
+"fargo, nd",28.028441707087104,2.8512089057550094,"Fargo, ND-MN MSAFargo, ND-MN MSA"
+"farmington, nm",,1.8756390630036868,"Farmington, NM MSA"
+"fayetteville, ar",37.46631300207732,0.9343771251359989,"Fayetteville-Springdale-Rogers, AR MSAFayetteville-Springdale-Rogers, AR MSAFayetteville-Springdale-Rogers, AR MSA"
+"fayetteville, nc",40.33369245368185,1.9413755702788582,"Fayetteville, NC MSAFayetteville, NC MSA"
+"fergus falls, mn",,,
+"fernley, nv",,,
+"findlay, oh",,,
+"flagstaff, az",37.545317499207414,2.264956822195346,"Flagstaff, AZ MSA"
+"flint, mi",34.93264989460233,2.570068375320073,"Flint, MI MSA"
+"florence, al",44.65248852550802,3.5380683815224634,"Florence-Muscle Shoals, AL MSAFlorence-Muscle Shoals, AL MSA"
+"florence, sc",36.73803676105242,3.245138900462352,"Florence, SC MSAFlorence, SC MSA"
+"fond du lac, wi",,1.2321172672285718,"Fond du Lac, WI MSA"
+"forest city, nc",,,
+"fort collins, co",27.18377762046083,-1.0091907168522096,"Fort Collins-Loveland, CO MSA"
+"fort dodge, ia",,,
+"fort leonard wood, mo",,,
+"fort morgan, co",,,
+"fort polk south, la",,,
+"fort smith, ar",31.390171641543034,1.3627526206620777,"Fort Smith, AR-OK MSAFort Smith, AR-OK MSAFort Smith, AR-OK MSA"
+"fort wayne, in",37.85834511455196,0.8027885403726454,"Fort Wayne, IN MSAFort Wayne, IN MSAFort Wayne, IN MSA"
+"frankfort, ky",39.6059514456998,,
+"fredericksburg, tx",,,
+"freeport, il",,,
+"fremont, ne",,,
+"fresno, ca",35.90937811422332,5.789278357176225,"Fresno, CA MSAFresno, CA MSA"
+"gadsden, al",,2.8378877957456417,"Gadsden, AL MSA"
+"gaffney, sc",,,
+"gainesville, fl",37.664337187353446,3.352539713171315,"Gainesville, FL MSAGainesville, FL MSAGainesville, FL MSA"
+"gainesville, ga",34.84870556401161,0.3157233989806718,"Gainesville, GA MSA"
+"gainesville, tx",,,
+"gardnerville ranchos, nv",,,
+"georgetown, sc",,,
+"gettysburg, pa",,-0.24524928380642574,"Gettysburg, PA MSA"
+"gillette, wy",,,
+"glasgow, ky",,,
+"glens falls, ny",,3.6207184578797014,"Glens Falls, NY MSAGlens Falls, NY MSA"
+"glenwood springs, co",66.48677391840313,,
+"goldsboro, nc",,2.373057376007448,"Goldsboro, NC MSA"
+"granbury, tx",28.367267150544556,,
+"grand forks, nd",21.646163733898053,2.732449569706785,"Grand Forks, ND-MN MSAGrand Forks, ND-MN MSA"
+"grand island, ne",,1.6050854841905826,"Grand Island, NE MSAGrand Island, NE MSAGrand Island, NE MSA"
+"grand junction, co",37.58912583225761,-1.821364731096975,"Grand Junction, CO MSA"
+"grand rapids, mi",33.828170265011536,0.4114460577104295,"Grand Rapids-Wyoming-Kentwood, MI MSAGrand Rapids-Wyoming-Kentwood, MI MSAGrand Rapids-Wyoming-Kentwood, MI MSAGrand Rapids-Wyoming-Kentwood, MI MSAGrand Rapids-Wyoming-Kentwood, MI MSA"
+"grants pass, or",,1.2405794590149677,"Grants Pass, OR MSA"
+"great falls, mt",53.574492979085264,1.1964105714874052,"Great Falls, MT MSA"
+"greeley, co",25.56355175157631,1.6166391959930637,"Greeley, CO MSA"
+"green bay, wi",,0.493417892720982,"Green Bay, WI MSAGreen Bay, WI MSAGreen Bay, WI MSA"
+"greeneville, tn",,,
+"greensboro, nc",38.75328582089458,0.9644332030392333,"Greensboro-High Point, NC MSAGreensboro-High Point, NC MSAGreensboro-High Point, NC MSA"
+"greenville, nc",42.34917935322075,1.8566877946095683,"Greenville, NC MSA"
+"greenville, sc",31.34931293188261,2.293238095694816,"Greenville-Anderson-Greer, SC MSAGreenville-Anderson-Greer, SC MSAGreenville-Anderson-Greer, SC MSAGreenville-Anderson-Greer, SC MSA"
+"greenwood, sc",,,
+"guayama, pr",,,"Guayama, PR MSAGuayama, PR MSAGuayama, PR MSA"
+"gulfport, ms",38.72426495744579,2.3089575506481386,"Gulfport-Biloxi, MS MSAGulfport-Biloxi, MS MSAGulfport-Biloxi, MS MSAGulfport-Biloxi, MS MSA"
+"hagerstown, md",38.28107075450531,1.443904458766554,"Hagerstown-Martinsburg, MD-WV MSAHagerstown-Martinsburg, MD-WV MSAHagerstown-Martinsburg, MD-WV MSA"
+"hammond, la",,,"Hammond, LA MSA"
+"hanford, ca",,5.5353516373834015,"Hanford-Corcoran, CA MSA"
+"harrisburg, pa",29.88109538303323,0.31993263019943763,"Harrisburg-Carlisle, PA MSAHarrisburg-Carlisle, PA MSAHarrisburg-Carlisle, PA MSA"
+"harrisonburg, va",25.587056031108556,-1.639611921597739,"Harrisonburg, VA MSAHarrisonburg, VA MSA"
+"hartford, ct",36.78486129296962,,"Hartford-West Hartford-East Hartford, CT MSAHartford-West Hartford-East Hartford, CT MSA"
+"hattiesburg, ms",,2.7652967668661432,"Hattiesburg, MS MSAHattiesburg, MS MSAHattiesburg, MS MSA"
+"heber, ut",25.308360219694848,,
+"helena, mt",,0.9624993464004694,"Helena, MT MSAHelena, MT MSAHelena, MT MSA"
+"henderson, nc",,,
+"hermiston, or",,,
+"hickory, nc",,0.6037547471627214,"Hickory-Lenoir-Morganton, NC MSAHickory-Lenoir-Morganton, NC MSAHickory-Lenoir-Morganton, NC MSAHickory-Lenoir-Morganton, NC MSA"
+"hilo, hi",,,
+"hilton head island, sc",43.449639708695194,2.581095257952959,"Hilton Head Island-Bluffton-Port Royal, SC MSAHilton Head Island-Bluffton-Port Royal, SC MSA"
+"hinesville, ga",49.59280563845871,4.056061773567565,"Hinesville, GA MSAHinesville, GA MSA"
+"hobbs, nm",,,
+"holland, mi",,,
+"homosassa springs, fl",37.019311123057044,2.2990799132269757,"Homosassa Springs, FL MSA"
+"hood river, or",,,
+"hot springs, ar",,1.2313310698476965,"Hot Springs, AR MSA"
+"houma, la",,,"Houma-Bayou Cane-Thibodaux, LA MSAHouma-Bayou Cane-Thibodaux, LA MSA"
+"houston, tx",22.786676630402017,3.6440889893807116,"Houston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSAHouston-Pasadena-The Woodlands, TX MSA"
+"hudson, ny",,,
+"huntington, wv",17.79069991218045,2.1381367976342047,"Huntington-Ashland, WV-KY-OH MSAHuntington-Ashland, WV-KY-OH MSAHuntington-Ashland, WV-KY-OH MSAHuntington-Ashland, WV-KY-OH MSAHuntington-Ashland, WV-KY-OH MSAHuntington-Ashland, WV-KY-OH MSAHuntington-Ashland, WV-KY-OH MSAHuntington-Ashland, WV-KY-OH MSA"
+"huntsville, al",27.909850431528238,0.7907999022450207,"Huntsville, AL MSAHuntsville, AL MSA"
+"huntsville, tx",,,
+"hutchinson, ks",29.932077684976623,,
+"idaho falls, id",36.246756658516276,0.8616962695690678,"Idaho Falls, ID MSAIdaho Falls, ID MSAIdaho Falls, ID MSA"
+"indiana, pa",,,
+"indianapolis, in",32.08804231695787,0.6102507565984683,"Indianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSAIndianapolis-Carmel-Greenwood, IN MSA"
+"iowa city, ia",17.54887684594726,2.222114034360423,"Iowa City, IA MSAIowa City, IA MSA"
+"ithaca, ny",32.75247599976237,0.7896032487965332,"Ithaca, NY MSA"
+"jackson, mi",43.690088689813585,1.2995624204056866,"Jackson, MI MSA"
+"jackson, ms",27.209591826710422,2.8402806977735837,"Jackson, MS MSAJackson, MS MSAJackson, MS MSAJackson, MS MSAJackson, MS MSAJackson, MS MSAJackson, MS MSAJackson, MS MSA"
+"jackson, tn",,3.030683114275967,"Jackson, TN MSAJackson, TN MSAJackson, TN MSAJackson, TN MSA"
+"jackson, wy",,,
+"jacksonville, fl",32.12773861980374,2.5572915330186574,"Jacksonville, FL MSAJacksonville, FL MSAJacksonville, FL MSAJacksonville, FL MSAJacksonville, FL MSA"
+"jacksonville, nc",38.12985129863276,3.497127835522351,"Jacksonville, NC MSA"
+"jamestown, nd",,,
+"janesville, wi",,2.0343435841003563,"Janesville-Beloit, WI MSA"
+"jasper, al",,,
+"jefferson city, mo",,0.5569165192233827,"Jefferson City, MO MSAJefferson City, MO MSAJefferson City, MO MSAJefferson City, MO MSA"
+"jefferson, ga",,,
+"johnson city, tn",46.811308110485854,1.638901776458035,"Johnson City, TN MSAJohnson City, TN MSAJohnson City, TN MSA"
+"johnstown, pa",26.232764310835137,1.1180680483648509,"Johnstown, PA MSA"
+"jonesboro, ar",22.91486857718618,1.3017677062064914,"Jonesboro, AR MSAJonesboro, AR MSA"
+"joplin, mo",,0.4950572040356649,"Joplin, MO-KS MSAJoplin, MO-KS MSAJoplin, MO-KS MSA"
+"juneau, ak",,,
+"kahului, hi",60.562515018083666,,"Kahului-Wailuku, HI MSAKahului-Wailuku, HI MSA"
+"kalamazoo, mi",28.642313010998986,0.5312342939251591,"Kalamazoo-Portage, MI MSA"
+"kalispell, mt",,,
+"kankakee, il",,2.0161500426993717,"Kankakee, IL MSA"
+"kansas city, mo",32.64410362139539,-2.9387721558043367,"Kansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSAKansas City, MO-KS MSA"
+"kapaa, hi",,,
+"kearney, ne",,,
+"keene, nh",,,
+"kennewick, wa",30.856973811366924,1.4217650084543676,"Kennewick-Richland, WA MSAKennewick-Richland, WA MSA"
+"kenosha, wi",,1.6782130089735503,"Kenosha, WI MSA"
+"kerrville, tx",,,
+"key west, fl",43.15361254861952,,
+"killeen, tx",28.639545347052337,3.947209928109796,"Killeen-Temple, TX MSAKilleen-Temple, TX MSAKilleen-Temple, TX MSA"
+"kingsport, tn",,1.5715774449670206,"Kingsport-Bristol, TN-VA MSAKingsport-Bristol, TN-VA MSAKingsport-Bristol, TN-VA MSAKingsport-Bristol, TN-VA MSAKingsport-Bristol, TN-VA MSA"
+"kingston, ny",27.280624770954915,2.4949885045842057,"Kingston, NY MSA"
+"kinston, nc",,,
+"kirksville, mo",,,
+"kiryas joel, ny",,4.207549092249508,"Kiryas Joel-Poughkeepsie-Newburgh, NY MSAKiryas Joel-Poughkeepsie-Newburgh, NY MSA"
+"klamath falls, or",,,
+"knoxville, tn",50.58823796376927,2.5479482216943516,"Knoxville, TN MSAKnoxville, TN MSAKnoxville, TN MSAKnoxville, TN MSAKnoxville, TN MSAKnoxville, TN MSAKnoxville, TN MSAKnoxville, TN MSAKnoxville, TN MSA"
+"kokomo, in",49.784470666639784,1.6081236054013903,"Kokomo, IN MSA"
+"la crosse, wi",,2.0660147774278825,"La Crosse-Onalaska, WI-MN MSALa Crosse-Onalaska, WI-MN MSALa Crosse-Onalaska, WI-MN MSA"
+"laconia, nh",,,
+"lafayette, in",42.53265104212514,0.5650576319950473,"Lafayette-West Lafayette, IN MSALafayette-West Lafayette, IN MSALafayette-West Lafayette, IN MSALafayette-West Lafayette, IN MSA"
+"lafayette, la",21.56513428975351,,"Lafayette, LA MSALafayette, LA MSALafayette, LA MSALafayette, LA MSA"
+"lagrange, ga",,,
+"lake charles, la",2.6514272776573597,,"Lake Charles, LA MSALake Charles, LA MSALake Charles, LA MSA"
+"lake city, fl",,,
+"lake havasu city, az",33.68679053371036,2.3734950352114703,"Lake Havasu City-Kingman, AZ MSA"
+"lakeland, fl",32.91624161559828,3.0191069786257296,"Lakeland-Winter Haven, FL MSA"
+"lancaster, pa",34.684412429334195,0.030133372179852458,"Lancaster, PA MSA"
+"lansing, mi",31.692541698457894,1.1843301154425223,"Lansing-East Lansing, MI MSALansing-East Lansing, MI MSALansing-East Lansing, MI MSA"
+"laramie, wy",,,
+"laredo, tx",32.198505691754704,12.765913147035873,"Laredo, TX MSA"
+"las cruces, nm",34.574083113685795,,"Las Cruces, NM MSA"
+"las vegas, nv",28.80856491460115,3.5044812079355667,"Las Vegas-Henderson-North Las Vegas, NV MSA"
+"lawrence, ks",31.659281176478167,0.722402109197573,"Lawrence, KS MSA"
+"lawton, ok",33.83835012368004,1.955710953339307,"Lawton, OK MSALawton, OK MSA"
+"lebanon, mo",,,
+"lebanon, nh",35.43001246509925,,
+"lebanon, pa",,0.0388983729254222,"Lebanon, PA MSA"
+"lewisburg, pa",,,
+"lewiston, id",,1.56687577027822,"Lewiston, ID-WA MSALewiston, ID-WA MSA"
+"lewiston, me",,2.7026496005594147,"Lewiston-Auburn, ME MSA"
+"lexington park, md",,2.573066133794044,"Lexington Park, MD MSALexington Park, MD MSA"
+"lexington, ky",39.78754418459943,2.233047041201491,"Lexington-Fayette, KY MSALexington-Fayette, KY MSALexington-Fayette, KY MSALexington-Fayette, KY MSALexington-Fayette, KY MSALexington-Fayette, KY MSA"
+"lima, oh",,2.300449858602216,"Lima, OH MSA"
+"lincoln, ne",30.259674369754226,1.8036151343581386,"Lincoln, NE MSALincoln, NE MSA"
+"little rock, ar",26.440033788381434,1.282464646741599,"Little Rock-North Little Rock-Conway, AR MSALittle Rock-North Little Rock-Conway, AR MSALittle Rock-North Little Rock-Conway, AR MSALittle Rock-North Little Rock-Conway, AR MSALittle Rock-North Little Rock-Conway, AR MSALittle Rock-North Little Rock-Conway, AR MSA"
+"lock haven, pa",,,
+"logan, ut",,-0.7824599395704235,"Logan, UT-ID MSALogan, UT-ID MSA"
+"london, ky",,,
+"longview, tx",28.45061201289722,2.6018791269164954,"Longview, TX MSALongview, TX MSALongview, TX MSALongview, TX MSA"
+"longview, wa",,1.1822507746543698,"Longview-Kelso, WA MSA"
+"los alamos, nm",,,
+"los angeles, ca",26.940070036439828,4.5454409892232315,"Los Angeles-Long Beach-Anaheim, CA MSALos Angeles-Long Beach-Anaheim, CA MSA"
+"louisville, ky",31.509152739213746,2.2728910967363958,"Louisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSALouisville-Jefferson County, KY-IN MSA"
+"lubbock, tx",18.25091150402627,3.7172572112303626,"Lubbock, TX MSALubbock, TX MSALubbock, TX MSALubbock, TX MSALubbock, TX MSALubbock, TX MSA"
+"lufkin, tx",,,
+"lumberton, nc",,,
+"lynchburg, va",35.281785619220216,2.00730055082029,"Lynchburg, VA MSALynchburg, VA MSALynchburg, VA MSALynchburg, VA MSALynchburg, VA MSA"
+"macon, ga",39.93895538429306,2.149840321308499,"Macon-Bibb County, GA MSAMacon-Bibb County, GA MSAMacon-Bibb County, GA MSAMacon-Bibb County, GA MSAMacon-Bibb County, GA MSA"
+"madera, ca",,,
+"madison, wi",31.62688913807987,0.6296239106408086,"Madison, WI MSAMadison, WI MSAMadison, WI MSAMadison, WI MSA"
+"manchester, nh",38.61608746796056,2.49419332774643,"Manchester-Nashua, NH MSA"
+"manhattan, ks",17.815717908386716,1.666737822879183,"Manhattan, KS MSAManhattan, KS MSAManhattan, KS MSA"
+"manitowoc, wi",,,
+"mankato, mn",,2.637469684299015,"Mankato, MN MSAMankato, MN MSA"
+"mansfield, oh",,1.6129850547285662,"Mansfield, OH MSA"
+"marinette, wi",,,
+"marion, in",,,
+"marquette, mi",,,
+"marshalltown, ia",,,
+"martinsville, va",,,
+"mayaguez, pr",,,"Mayaguez, PR MSAMayaguez, PR MSAMayaguez, PR MSAMayaguez, PR MSAMayaguez, PR MSAMayaguez, PR MSA"
+"mcalester, ok",,,
+"mcallen, tx",22.293533117771123,9.995263546902017,"McAllen-Edinburg-Mission, TX MSA"
+"mcpherson, ks",,,
+"meadville, pa",,,
+"medford, or",20.655768024793655,1.411372951106049,"Medford, OR MSA"
+"memphis, tn",28.107039210568264,3.249126972966865,"Memphis, TN-MS-AR MSAMemphis, TN-MS-AR MSAMemphis, TN-MS-AR MSAMemphis, TN-MS-AR MSAMemphis, TN-MS-AR MSAMemphis, TN-MS-AR MSAMemphis, TN-MS-AR MSAMemphis, TN-MS-AR MSAMemphis, TN-MS-AR MSA"
+"menomonie, wi",,,
+"merced, ca",31.52261030992114,7.371916645950516,"Merced, CA MSA"
+"meridian, ms",,,
+"miami, fl",50.127707123148035,7.305168839709141,"Miami-Fort Lauderdale-West Palm Beach, FL MSAMiami-Fort Lauderdale-West Palm Beach, FL MSAMiami-Fort Lauderdale-West Palm Beach, FL MSA"
+"michigan city, in",,3.45764438485493,"Michigan City-La Porte, IN MSA"
+"midland, mi",,0.33378117565076026,"Midland, MI MSA"
+"midland, tx",29.95009846219204,2.0689254725727912,"Midland, TX MSAMidland, TX MSA"
+"milledgeville, ga",,,
+"milwaukee, wi",26.697974415063946,0.07390282849110141,"Milwaukee-Waukesha, WI MSAMilwaukee-Waukesha, WI MSAMilwaukee-Waukesha, WI MSAMilwaukee-Waukesha, WI MSA"
+"minneapolis, mn",16.528187766359906,1.1567553888807924,"Minneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSAMinneapolis-St. Paul-Bloomington, MN-WI MSA"
+"minot, nd",17.833959455397924,1.5017254328677732,"Minot, ND MSAMinot, ND MSAMinot, ND MSA"
+"missoula, mt",40.521952573438554,0.7817779705557415,"Missoula, MT MSAMissoula, MT MSA"
+"mitchell, sd",,,
+"mobile, al",,2.2481563833257723,"Mobile, AL MSA"
+"modesto, ca",29.906506558203922,5.727906577599312,"Modesto, CA MSA"
+"monroe, la",,,"Monroe, LA MSAMonroe, LA MSAMonroe, LA MSAMonroe, LA MSA"
+"monroe, mi",,2.2626181542262924,"Monroe, MI MSA"
+"montgomery, al",31.367230404071172,2.1356251890690237,"Montgomery, AL MSAMontgomery, AL MSAMontgomery, AL MSAMontgomery, AL MSA"
+"montrose, co",,,
+"morehead city, nc",,,
+"morgantown, wv",19.374929094484404,0.9550332896043012,"Morgantown, WV MSAMorgantown, WV MSA"
+"morristown, tn",,2.683443199128932,"Morristown, TN MSAMorristown, TN MSA"
+"moscow, id",,,
+"moses lake, wa",38.263980005575085,,
+"mount pleasant, mi",,,
+"mount sterling, ky",,,
+"mount vernon, oh",,,
+"mount vernon, wa",34.32777202501776,-0.8310411124405781,"Mount Vernon-Anacortes, WA MSA"
+"mountain home, ar",,,
+"mountain home, id",,,
+"muncie, in",34.07848668372607,1.1462968015453212,"Muncie, IN MSA"
+"muskegon, mi",,1.327725225199211,"Muskegon-Norton Shores, MI MSA"
+"muskogee, ok",,,
+"myrtle beach, sc",42.05318758874114,2.7053129913623186,"Myrtle Beach-Conway-North Myrtle Beach, SC MSA"
+"nacogdoches, tx",,,
+"napa, ca",17.101633174333283,2.3991918061392834,"Napa, CA MSA"
+"naples, fl",55.430924582227725,3.840393620120719,"Naples-Marco Island, FL MSA"
+"nashville, tn",28.291154403315577,3.7212645387703858,"Nashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSANashville-Davidson--Murfreesboro--Franklin, TN MSA"
+"new bern, nc",,,
+"new castle, in",,,
+"new castle, pa",,,
+"new haven, ct",42.35014939122983,,"New Haven, CT MSA"
+"new orleans, la",24.138591489130377,,"New Orleans-Metairie, LA MSANew Orleans-Metairie, LA MSANew Orleans-Metairie, LA MSANew Orleans-Metairie, LA MSANew Orleans-Metairie, LA MSANew Orleans-Metairie, LA MSANew Orleans-Metairie, LA MSA"
+"new york, ny",39.3610098086731,6.8698536407304225,"New York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSANew York-Newark-Jersey City, NY-NJ MSA"
+"newport, or",,,
+"niles, mi",35.74590614385193,0.29915264376776385,"Niles, MI MSA"
+"nogales, az",,,
+"norfolk, ne",,,
+"north platte, ne",,,
+"north port, fl",39.96954828215652,3.607759034041258,"North Port-Bradenton-Sarasota, FL MSANorth Port-Bradenton-Sarasota, FL MSA"
+"norwich, ct",43.99443156047201,,"Norwich-New London-Willimantic, CT MSA"
+"oak harbor, wa",32.83197743699597,,
+"ocala, fl",35.10273442037032,2.730244530811221,"Ocala, FL MSA"
+"ocean city, nj",,,
+"odessa, tx",28.057018779100453,2.637469966678063,"Odessa, TX MSA"
+"ogden, ut",31.931643057743003,-1.0743549175778466,"Ogden, UT MSAOgden, UT MSAOgden, UT MSA"
+"oil city, pa",,,
+"okeechobee, fl",,,
+"oklahoma city, ok",27.38978130757761,0.9261755210641986,"Oklahoma City, OK MSAOklahoma City, OK MSAOklahoma City, OK MSAOklahoma City, OK MSAOklahoma City, OK MSAOklahoma City, OK MSAOklahoma City, OK MSA"
+"olympia, wa",28.020904261046553,-0.9715059161090722,"Olympia-Lacey-Tumwater, WA MSA"
+"omaha, ne",31.273119561089764,0.8199800740110452,"Omaha, NE-IA MSAOmaha, NE-IA MSAOmaha, NE-IA MSAOmaha, NE-IA MSAOmaha, NE-IA MSAOmaha, NE-IA MSAOmaha, NE-IA MSAOmaha, NE-IA MSA"
+"oneonta, ny",,,
+"orangeburg, sc",,,
+"orlando, fl",36.10338159653839,4.507130219329147,"Orlando-Kissimmee-Sanford, FL MSAOrlando-Kissimmee-Sanford, FL MSAOrlando-Kissimmee-Sanford, FL MSAOrlando-Kissimmee-Sanford, FL MSA"
+"oshkosh, wi",,0.7364848120145151,"Oshkosh-Neenah, WI MSA"
+"ottawa, il",,,
+"owensboro, ky",,2.120032700839092,"Owensboro, KY MSAOwensboro, KY MSA"
+"oxford, ms",,,
+"oxnard, ca",27.82214934551974,2.6359971745010977,"Oxnard-Thousand Oaks-Ventura, CA MSA"
+"ozark, al",,,
+"paducah, ky",,1.6059223981948478,"Paducah, KY-IL MSAPaducah, KY-IL MSAPaducah, KY-IL MSAPaducah, KY-IL MSAPaducah, KY-IL MSA"
+"pahrump, nv",,,
+"palatka, fl",,,
+"palm bay, fl",37.89939521030844,2.025510383271867,"Palm Bay-Melbourne-Titusville, FL MSA"
+"panama city, fl",25.84306893766649,1.785018674469463,"Panama City-Panama City Beach, FL MSAPanama City-Panama City Beach, FL MSA"
+"paragould, ar",,,
+"paris, tx",,,
+"parkersburg, wv",,0.3783745756102741,"Parkersburg-Vienna, WV MSAParkersburg-Vienna, WV MSA"
+"payson, az",,,
+"pella, ia",,,
+"pensacola, fl",36.41163242120218,2.6113493306557545,"Pensacola-Ferry Pass-Brent, FL MSAPensacola-Ferry Pass-Brent, FL MSA"
+"peoria, il",33.31818793310987,1.144263112784194,"Peoria, IL MSAPeoria, IL MSAPeoria, IL MSAPeoria, IL MSAPeoria, IL MSA"
+"philadelphia, pa",25.95569619797014,1.9801481157528833,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSAPhiladelphia-Camden-Wilmington, PA-NJ-DE-MD MSA"
+"phoenix, az",28.706127727334884,2.931550973128838,"Phoenix-Mesa-Chandler, AZ MSAPhoenix-Mesa-Chandler, AZ MSA"
+"pine bluff, ar",,,
+"pinehurst, nc",37.7833922632047,1.0934790864277177,"Pinehurst-Southern Pines, NC MSA"
+"pittsburg, ks",,,
+"pittsburgh, pa",24.678716948656,0.5668543240283097,"Pittsburgh, PA MSAPittsburgh, PA MSAPittsburgh, PA MSAPittsburgh, PA MSAPittsburgh, PA MSAPittsburgh, PA MSAPittsburgh, PA MSAPittsburgh, PA MSA"
+"pittsfield, ma",,3.6702129989992893,"Pittsfield, MA MSA"
+"platteville, wi",,,
+"pocatello, id",,1.8723393037668234,"Pocatello, ID MSA"
+"ponca city, ok",,,
+"ponce, pr",,,"Ponce, PR MSAPonce, PR MSAPonce, PR MSAPonce, PR MSAPonce, PR MSAPonce, PR MSA"
+"port angeles, wa",,,
+"port st. lucie, fl",41.95388485221094,3.1514775603867506,"Port St. Lucie, FL MSAPort St. Lucie, FL MSA"
+"portales, nm",,,
+"portland, me",35.7963656398558,1.250135537490149,"Portland-South Portland, ME MSAPortland-South Portland, ME MSAPortland-South Portland, ME MSA"
+"portland, or",24.307330446372575,0.2144964600552801,"Portland-Vancouver-Hillsboro, OR-WA MSAPortland-Vancouver-Hillsboro, OR-WA MSAPortland-Vancouver-Hillsboro, OR-WA MSAPortland-Vancouver-Hillsboro, OR-WA MSAPortland-Vancouver-Hillsboro, OR-WA MSAPortland-Vancouver-Hillsboro, OR-WA MSAPortland-Vancouver-Hillsboro, OR-WA MSA"
+"pottsville, pa",,,
+"poughkeepsie, ny",35.2801794798832,,
+"prescott valley, az",34.19687566477994,2.578061972058865,"Prescott Valley-Prescott, AZ MSA"
+"prineville, or",,,
+"providence, ri",39.0731911654991,4.0465860394540645,"Providence-Warwick, RI-MA MSAProvidence-Warwick, RI-MA MSAProvidence-Warwick, RI-MA MSAProvidence-Warwick, RI-MA MSAProvidence-Warwick, RI-MA MSAProvidence-Warwick, RI-MA MSA"
+"provo, ut",29.520541015074635,-1.138767112960648,"Provo-Orem-Lehi, UT MSAProvo-Orem-Lehi, UT MSA"
+"pueblo, co",25.18486222389586,3.4830601115133586,"Pueblo, CO MSA"
+"pullman, wa",,,
+"punta gorda, fl",41.069190442070884,3.4969005424676403,"Punta Gorda, FL MSA"
+"quincy, il",,,
+"racine, wi",26.48163976579192,1.1477419692695001,"Racine-Mount Pleasant, WI MSA"
+"raleigh, nc",27.907245004644526,0.46018473874408494,"Raleigh-Cary, NC MSARaleigh-Cary, NC MSARaleigh-Cary, NC MSA"
+"rapid city, sd",37.96499427455583,1.3665401040374725,"Rapid City, SD MSARapid City, SD MSARapid City, SD MSA"
+"reading, pa",42.97871873353735,2.0588746311676065,"Reading, PA MSA"
+"red bluff, ca",,,
+"red wing, mn",,,
+"redding, ca",27.50647481607237,1.503900124615598,"Redding, CA MSA"
+"reno, nv",20.65869490944466,2.1535074913574315,"Reno, NV MSAReno, NV MSAReno, NV MSA"
+"rexburg, id",,,
+"richmond, in",,,
+"richmond, ky",33.65607496702058,,
+"richmond, va",32.95093731932567,0.15150859924040194,"Richmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSARichmond, VA MSA"
+"riverside, ca",32.65248818139111,5.1155030928962955,"Riverside-San Bernardino-Ontario, CA MSARiverside-San Bernardino-Ontario, CA MSA"
+"riverton, wy",,,
+"roanoke, va",40.479759430960804,0.9281099925960046,"Roanoke, VA MSARoanoke, VA MSARoanoke, VA MSARoanoke, VA MSARoanoke, VA MSARoanoke, VA MSA"
+"rochester, mn",22.985637880252202,0.4380332208107962,"Rochester, MN MSARochester, MN MSARochester, MN MSARochester, MN MSA"
+"rochester, ny",30.8189801169463,2.7190378300640528,"Rochester, NY MSARochester, NY MSARochester, NY MSARochester, NY MSARochester, NY MSA"
+"rock springs, wy",37.533669562968726,,
+"rockford, il",38.22662233096298,0.9063732661381441,"Rockford, IL MSARockford, IL MSA"
+"rockport, tx",,,
+"rocky mount, nc",,1.4645857943183849,"Rocky Mount, NC MSARocky Mount, NC MSA"
+"rolla, mo",,,
+"rome, ga",,0.7762311974166658,"Rome, GA MSA"
+"roseburg, or",,,
+"roswell, nm",,,
+"russellville, ar",,,
+"ruston, la",,,
+"rutland, vt",,,
+"sacramento, ca",24.157477344355442,2.0574036525140063,"Sacramento-Roseville-Folsom, CA MSASacramento-Roseville-Folsom, CA MSASacramento-Roseville-Folsom, CA MSASacramento-Roseville-Folsom, CA MSA"
+"saginaw, mi",,1.7375990389546403,"Saginaw, MI MSA"
+"salem, oh",,,
+"salem, or",31.261502316431546,1.3251418705791718,"Salem, OR MSASalem, OR MSA"
+"salina, ks",,,
+"salinas, ca",26.737055062045528,5.307080182800073,"Salinas, CA MSA"
+"salisbury, md",39.85837308024113,1.4687307240502823,"Salisbury, MD MSASalisbury, MD MSA"
+"salt lake city, ut",30.9547664866943,0.9993636213264989,"Salt Lake City-Murray, UT MSASalt Lake City-Murray, UT MSA"
+"san angelo, tx",18.74418469134306,1.9922621235079152,"San Angelo, TX MSASan Angelo, TX MSA"
+"san antonio, tx",18.220776879385042,4.439618594433909,"San Antonio-New Braunfels, TX MSASan Antonio-New Braunfels, TX MSASan Antonio-New Braunfels, TX MSASan Antonio-New Braunfels, TX MSASan Antonio-New Braunfels, TX MSASan Antonio-New Braunfels, TX MSASan Antonio-New Braunfels, TX MSASan Antonio-New Braunfels, TX MSA"
+"san diego, ca",35.97903397188296,2.690159096165845,"San Diego-Chula Vista-Carlsbad, CA MSA"
+"san francisco, ca",16.84512207632702,2.946358322256526,"San Francisco-Oakland-Fremont, CA MSASan Francisco-Oakland-Fremont, CA MSASan Francisco-Oakland-Fremont, CA MSASan Francisco-Oakland-Fremont, CA MSASan Francisco-Oakland-Fremont, CA MSA"
+"san jose, ca",21.476329784946863,3.0085332910145146,"San Jose-Sunnyvale-Santa Clara, CA MSASan Jose-Sunnyvale-Santa Clara, CA MSA"
+"san juan, pr",,,"San Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSASan Juan-Bayamon-Caguas, PR MSA"
+"san luis obispo, ca",33.04605492121595,0.8450921790180699,"San Luis Obispo-Paso Robles, CA MSA"
+"sandpoint, id",,,
+"sandusky, oh",,1.2262583873724475,"Sandusky, OH MSASandusky, OH MSA"
+"sanford, nc",,,
+"santa cruz, ca",28.39854429462603,2.2781752330629153,"Santa Cruz-Watsonville, CA MSA"
+"santa fe, nm",35.36467307452419,2.1445816149485015,"Santa Fe, NM MSA"
+"santa maria, ca",40.86712791562579,2.3065840465619383,"Santa Maria-Santa Barbara, CA MSA"
+"santa rosa, ca",20.6312393655692,2.1847327847307114,"Santa Rosa-Petaluma, CA MSA"
+"savannah, ga",48.630055420389056,1.0096564443809297,"Savannah, GA MSASavannah, GA MSASavannah, GA MSA"
+"sayre, pa",,,
+"scranton, pa",34.377487787154074,2.4896637664654775,"Scranton--Wilkes-Barre, PA MSAScranton--Wilkes-Barre, PA MSAScranton--Wilkes-Barre, PA MSA"
+"searcy, ar",,,
+"seattle, wa",29.254496653200974,0.29754759430222766,"Seattle-Tacoma-Bellevue, WA MSASeattle-Tacoma-Bellevue, WA MSASeattle-Tacoma-Bellevue, WA MSA"
+"sebastian, fl",50.9947143333352,2.665248602957304,"Sebastian-Vero Beach-West Vero Corridor, FL MSA"
+"sebring, fl",45.92754317550914,3.0787692966704805,"Sebring, FL MSA"
+"sedalia, mo",,,
+"selinsgrove, pa",,,
+"seneca, sc",,,
+"sevierville, tn",,,
+"shawnee, ok",,,
+"sheboygan, wi",,0.40012992121376545,"Sheboygan, WI MSA"
+"shelby, nc",,,
+"shelton, wa",,,
+"sherman, tx",23.641464213624246,2.296467291558102,"Sherman-Denison, TX MSA"
+"show low, az",,,
+"shreveport, la",22.55807985763061,,"Shreveport-Bossier City, LA MSAShreveport-Bossier City, LA MSAShreveport-Bossier City, LA MSA"
+"sierra vista, az",,1.9411276866767468,"Sierra Vista-Douglas, AZ MSA"
+"sikeston, mo",,,
+"sioux city, ia",,3.5759590368927174,"Sioux City, IA-NE-SD MSASioux City, IA-NE-SD MSASioux City, IA-NE-SD MSA"
+"sioux falls, sd",29.86203393684668,1.8140795918688113,"Sioux Falls, SD-MN MSASioux Falls, SD-MN MSASioux Falls, SD-MN MSASioux Falls, SD-MN MSASioux Falls, SD-MN MSA"
+"slidell, la",,,"Slidell-Mandeville-Covington, LA MSA"
+"sonora, ca",,,
+"south bend, in",41.080738327045104,2.5727990397803047,"South Bend-Mishawaka, IN-MI MSASouth Bend-Mishawaka, IN-MI MSA"
+"spartanburg, sc",30.58201269514715,3.357653807334604,"Spartanburg, SC MSASpartanburg, SC MSA"
+"spearfish, sd",,,
+"spokane, wa",33.886010076991795,0.40752131195739283,"Spokane-Spokane Valley, WA MSASpokane-Spokane Valley, WA MSA"
+"springfield, il",32.075037514580714,0.3654999120004443,"Springfield, IL MSASpringfield, IL MSA"
+"springfield, ma",37.1512627018145,4.782477138463159,"Springfield, MA MSA"
+"springfield, mo",35.831484524465814,0.4940130827982614,"Springfield, MO MSASpringfield, MO MSASpringfield, MO MSASpringfield, MO MSASpringfield, MO MSA"
+"springfield, oh",,3.1365829631219144,"Springfield, OH MSA"
+"st. cloud, mn",19.975213598942236,2.202256890161114,"St. Cloud, MN MSASt. Cloud, MN MSA"
+"st. george, ut",25.611170813158417,0.4983529912588325,"St. George, UT MSA"
+"st. joseph, mo",,1.6622565365074449,"St. Joseph, MO-KS MSASt. Joseph, MO-KS MSASt. Joseph, MO-KS MSASt. Joseph, MO-KS MSA"
+"st. louis, mo",30.641354701697736,0.7124655931638246,"St. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSASt. Louis, MO-IL MSA"
+"st. marys, ga",,,
+"starkville, ms",,,
+"state college, pa",25.950759418660347,0.910807742041192,"State College, PA MSA"
+"statesboro, ga",,,
+"staunton, va",34.73444253137879,0.36262112276298497,"Staunton-Stuarts Draft, VA MSAStaunton-Stuarts Draft, VA MSAStaunton-Stuarts Draft, VA MSA"
+"steamboat springs, co",,,
+"stephenville, tx",,,
+"sterling, co",,,
+"stevens point, wi",,,
+"stillwater, ok",29.965894957896268,,
+"stockton, ca",23.62345412288354,6.946882447078956,"Stockton-Lodi, CA MSA"
+"sturgis, mi",,,
+"sulphur springs, tx",,,
+"sumter, sc",38.00996053083812,4.039785376983218,"Sumter, SC MSA"
+"sunbury, pa",,,
+"susanville, ca",,,
+"syracuse, ny",38.18005057515464,2.571402106389037,"Syracuse, NY MSASyracuse, NY MSASyracuse, NY MSA"
+"tahlequah, ok",,,
+"talladega, al",,,
+"tallahassee, fl",38.775841443576674,3.3494811200455663,"Tallahassee, FL MSATallahassee, FL MSATallahassee, FL MSATallahassee, FL MSA"
+"tampa, fl",42.49918773880578,3.7138998702747172,"Tampa-St. Petersburg-Clearwater, FL MSATampa-St. Petersburg-Clearwater, FL MSATampa-St. Petersburg-Clearwater, FL MSATampa-St. Petersburg-Clearwater, FL MSA"
+"terre haute, in",,1.451818198001964,"Terre Haute, IN MSATerre Haute, IN MSATerre Haute, IN MSATerre Haute, IN MSA"
+"texarkana, tx",,3.0964572302630944,"Texarkana, TX-AR MSATexarkana, TX-AR MSATexarkana, TX-AR MSA"
+"the dalles, or",,,
+"the villages, fl",,,
+"thomasville, ga",,,
+"tifton, ga",,,
+"toledo, oh",35.06219792419731,2.0312534992766587,"Toledo, OH MSAToledo, OH MSAToledo, OH MSA"
+"topeka, ks",36.60540735339487,1.4817077259505318,"Topeka, KS MSATopeka, KS MSATopeka, KS MSATopeka, KS MSATopeka, KS MSA"
+"torrington, ct",43.89760068304382,,
+"traverse city, mi",,-0.5469638811409494,"Traverse City, MI MSATraverse City, MI MSATraverse City, MI MSATraverse City, MI MSA"
+"trenton, nj",32.99781406515418,2.676273846491589,"Trenton-Princeton, NJ MSA"
+"truckee, ca",,,
+"tucson, az",33.76326467053638,1.7581338700322247,"Tucson, AZ MSA"
+"tullahoma, tn",,,
+"tulsa, ok",32.44870148649158,0.61800899208172,"Tulsa, OK MSATulsa, OK MSATulsa, OK MSATulsa, OK MSATulsa, OK MSATulsa, OK MSATulsa, OK MSA"
+"tupelo, ms",,,
+"tuscaloosa, al",35.242762525942965,3.2677407192962526,"Tuscaloosa, AL MSATuscaloosa, AL MSATuscaloosa, AL MSATuscaloosa, AL MSA"
+"twin falls, id",,2.117343143850281,"Twin Falls, ID MSATwin Falls, ID MSA"
+"tyler, tx",27.821060810388985,2.8356103938628974,"Tyler, TX MSA"
+"ukiah, ca",,,
+united states,32.61849859164278,,
+"urban honolulu, hi",24.495534023057473,2.6174182286286984,"Urban Honolulu, HI MSA"
+"utica, ny",,4.293414604104562,"Utica-Rome, NY MSAUtica-Rome, NY MSA"
+"valdosta, ga",36.388006459044604,3.279737613906619,"Valdosta, GA MSAValdosta, GA MSAValdosta, GA MSAValdosta, GA MSA"
+"vallejo, ca",18.393684970546925,3.392269960377392,"Vallejo, CA MSA"
+"vicksburg, ms",,,
+"victoria, tx",,2.4882875834283613,"Victoria, TX MSAVictoria, TX MSA"
+"vineland, nj",,4.857796830781064,"Vineland, NJ MSA"
+"virginia beach, va",34.42669491607682,0.8040528680881343,"Virginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSAVirginia Beach-Chesapeake-Norfolk, VA-NC MSA"
+"visalia, ca",37.04832479283823,6.382710548025905,"Visalia, CA MSA"
+"waco, tx",30.857684606009578,3.8025316896012185,"Waco, TX MSAWaco, TX MSAWaco, TX MSA"
+"wahpeton, nd",,,
+"walla walla, wa",,-0.12116557482588775,"Walla Walla, WA MSA"
+"warner robins, ga",42.40167302666555,-0.17574764706086432,"Warner Robins, GA MSAWarner Robins, GA MSA"
+"warrensburg, mo",27.730449256212392,,
+"warsaw, in",,,
+"washington, dc",27.2902717417704,2.9418601341916704,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSAWashington-Arlington-Alexandria, DC-VA-MD-WV MSA"
+"waterbury, ct",,,"Waterbury-Shelton, CT MSA"
+"waterloo, ia",21.836468415024914,3.682050455297076,"Waterloo-Cedar Falls, IA MSAWaterloo-Cedar Falls, IA MSAWaterloo-Cedar Falls, IA MSA"
+"watertown, ny",,5.292752146899026,"Watertown-Fort Drum, NY MSA"
+"watertown, wi",,,
+"wausau, wi",,0.48533328271846976,"Wausau, WI MSA"
+"weatherford, ok",,,
+"weirton, wv",,1.9916927212994429,"Weirton-Steubenville, WV-OH MSAWeirton-Steubenville, WV-OH MSAWeirton-Steubenville, WV-OH MSA"
+"wenatchee, wa",,0.6985410178346751,"Wenatchee-East Wenatchee, WA MSAWenatchee-East Wenatchee, WA MSA"
+"wheeling, wv",18.330011306339006,0.9285311357687509,"Wheeling, WV-OH MSAWheeling, WV-OH MSAWheeling, WV-OH MSA"
+"whitewater, wi",,,
+"wichita falls, tx",32.989026511801804,1.7989971599960963,"Wichita Falls, TX MSAWichita Falls, TX MSAWichita Falls, TX MSA"
+"wichita, ks",28.63986865562207,0.9553407078200848,"Wichita, KS MSAWichita, KS MSAWichita, KS MSAWichita, KS MSA"
+"wildwood, fl",,0.44280343767790775,"Wildwood-The Villages, FL MSA"
+"williamsport, pa",,0.14162660162704288,"Williamsport, PA MSA"
+"williston, nd",57.93623487069196,,
+"willmar, mn",,,
+"wilmington, nc",38.24773494568648,1.2253786453081394,"Wilmington, NC MSAWilmington, NC MSAWilmington, NC MSA"
+"wilson, nc",,,
+"winchester, va",36.77727310166056,0.603223870662728,"Winchester, VA-WV MSAWinchester, VA-WV MSAWinchester, VA-WV MSA"
+"winona, mn",,,
+"winston, nc",38.86921771093288,0.507522688735329,"Winston-Salem, NC MSAWinston-Salem, NC MSAWinston-Salem, NC MSAWinston-Salem, NC MSAWinston-Salem, NC MSA"
+"wisconsin rapids, wi",,,
+"wooster, oh",,,
+"worcester, ma",39.0094785517497,4.200401851628599,"Worcester, MA MSA"
+"yakima, wa",,3.069489450607299,"Yakima, WA MSA"
+"york, pa",30.352633708545333,0.3891633990019905,"York-Hanover, PA MSA"
+"youngstown, oh",37.88178812120629,3.414893124045293,"Youngstown-Warren, OH MSAYoungstown-Warren, OH MSA"
+"yuba city, ca",28.51752294323987,5.148286040351269,"Yuba City, CA MSAYuba City, CA MSA"
+"yuma, az",,7.345069900772172,"Yuma, AZ MSA"
+"zanesville, oh",,,
