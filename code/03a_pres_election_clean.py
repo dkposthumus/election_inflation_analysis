@@ -33,9 +33,9 @@ for state in trump_2020['state'].unique():
             trump_2020 = pd.concat([trump_2020, pd.DataFrame([total_row])], ignore_index=True)
 trump_2020 = trump_2020[trump_2020['mode'] == 'TOTAL']
 trump_2020['trump %, 2020'] = (trump_2020['candidatevotes'] / trump_2020['totalvotes']) * 100
-trump_2020['trump votecount, 2020'] = trump_2020['candidatevotes']
-trump_2020 = trump_2020[['state', 'totalvotes', 'county_name', 'trump votecount, 2020', 'trump %, 2020']]
-trump_2020.rename(columns={'totalvotes': 'totalvotes, 2020'}, inplace=True)
+trump_2020['pres trump votecount, 2020'] = trump_2020['candidatevotes']
+trump_2020 = trump_2020[['state', 'totalvotes', 'county_name', 'pres trump votecount, 2020', 'trump %, 2020']]
+trump_2020.rename(columns={'totalvotes': 'pres totalvotes, 2020'}, inplace=True)
 trump_2020 = trump_2020.dropna(subset=['county_name']) # drop all rows where 'county_name' is missing
 trump_2020 = trump_2020.dropna(subset=['trump %, 2020']) # drop all w/missing trump vote obs
 # force all observations to be entirely lowercase
@@ -51,7 +51,8 @@ for problem, solution in zip(['LaSalle', 'St. Louis', 'Coös'],
                             ['la salle', 'st. louis county', 'coos']):
     trump_2024.loc[trump_2024['county_name'] == problem, 'county_name'] = solution
 trump_2024.loc[trump_2024['state'] == 'DC', 'state'] = 'District of Columbia'
-trump_2024.rename(columns={'Total Vote': 'totalvotes, 2024'}, inplace=True)
+trump_2024.rename(columns={'Total Vote': 'pres totalvotes, 2024',
+                           'trump votecount, 2024': 'pres trump votecount, 2024'}, inplace=True)
 trump_2024['trump %, 2024'] = trump_2024['trump %, 2024'] * 100 # convert to percentage
 trump_2024 = trump_2024.dropna(subset=['county_name']) # drop all rows where 'county_name' is missing
 trump_2024 = trump_2024.dropna(subset=['trump %, 2024']) # drop all w/missing trump vote obs
@@ -88,4 +89,4 @@ trump_2020_2024['trump %, 2024'] = trump_2020_2024['trump %, 2024'].astype('floa
 # let's make another column, change in trump vote share
 trump_2020_2024['2020-2024 swing'] = trump_2020_2024['trump %, 2024'] - trump_2020_2024['trump %, 2020']
 
-trump_2020_2024.to_csv(f'{clean_data}/trump_2020_2024.csv', index=False)
+trump_2020_2024.to_csv(f'{clean_data}/pres_2020_2024.csv', index=False)

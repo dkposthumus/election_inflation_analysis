@@ -12,27 +12,42 @@ code = Path.cwd()
 
 county_state_crosswalk = pd.read_csv(f'{clean_data}/county_msa_crosswalk_cleaned.csv')
 # read inflation data into file
-inflation_data = pd.read_csv(f'{clean_data}/cpi_cumulative.csv')
-election_data = pd.read_csv(f'{clean_data}/trump_2020_2024.csv')
+bls_msa_cpi = pd.read_csv(f'{clean_data}/cpi_cumulative.csv')
+bea_msa_rpp = pd.read_csv(f'{clean_data}/bea_msa_rpp.csv')
 
 # first merge election and crosswalk:
-election_merged = election_data.merge(county_state_crosswalk, on=['state', 'county_name'], 
-                                      how='outer', indicator=True)
-election_merged = election_merged[election_merged['_merge'] == 'both'] # filter to BOTH
-election_merged = election_merged.drop(columns='_merge')
-# with msa's in hand, now let's remake the trump vote share variables:
-filtered = election_merged.groupby('msa', as_index=False).agg({
-        'totalvotes, 2020': 'sum',
-        'totalvotes, 2024': 'sum',
-        'trump votecount, 2020': 'sum',
-        'trump votecount, 2024': 'sum'
-})
-for year in ['2020', '2024']:
-    filtered[f'trump %, {year}'] = (filtered[f'trump votecount, {year}'] / filtered[f'totalvotes, {year}']) * 100
-filtered['2020-2024 swing'] = filtered['trump %, 2024'] - filtered['trump %, 2020']
-# now merge inflation data 
-master = election_merged.merge(inflation_data, on='msa', how='outer', indicator=True)
-master.to_csv(f'{clean_data}/county_level_master.csv', index=False) # export to CSV the county-based master data
+election_merged_dict = {}
+for offices in ['house', 'senate', 'pres']:
+    election_data = pd.read_csv(f'{clean_data}/{offices}_2020_2024.csv')
+    election_merged = election_data.merge(county_state_crosswalk, on=['state', 'county_name'], 
+                                          how='outer', indicator='merge')
+    election_merged = election_merged[election_merged['merge'] == 'both'] # filter to BOTH
+    election_merged = election_merged.drop(columns='merge')
+    election_merged_dict[offices] = election_merged
 
-master = filtered.merge(inflation_data, on='msa', how='outer', indicator=True)
-master.to_csv(f'{clean_data}/msa_level_master.csv', index=False) # export to CSV the MSA-based Trump data
+for office, label in zip(['house', 'senate', 'pres'], ['rep', 'rep', 'trump']):
+    # with msa's in hand, now let's remake the trump vote share variables:
+    df = election_merged_dict[office]
+    df = df.groupby('msa', as_index=False).agg({
+        f'{office} totalvotes, 2020': 'sum',
+        f'{office} totalvotes, 2024': 'sum',
+        f'{office} {label} votecount, 2020': 'sum',
+        f'{office} {label} votecount, 2024': 'sum'
+    })
+    for year in ['2020', '2024']:
+        df[f'{office} {label} %, {year}'] = (df[f'{office} {label} votecount, {year}'] / df[f'{office} totalvotes, {year}']) * 100
+    df[f'{office} {label} 2020-2024 swing'] = df[f'{office} {label} %, 2024'] - df[f'{office} {label} %, 2020']
+    election_merged_dict[office] = df
+# now concatenate horizontally all dataframes in the dictionary
+house = election_merged_dict['house']
+senate = election_merged_dict['senate']
+trump = election_merged_dict['pres']
+#merge everything 
+election_data = pd.merge(house, senate, on='msa', how='outer', indicator='senate-house _merge')
+election_data = pd.merge(election_data, trump, on='msa', how='outer', indicator='congress-trump _merge')
+# now merge inflation data with election data
+master = election_data.merge(bls_msa_cpi, on='msa', how='outer', indicator=True)
+master.to_csv(f'{clean_data}/msa_bls_level_master.csv', index=False) # export to CSV the MSA-based master data
+
+master = election_data.merge(bea_msa_rpp, on='msa', how='outer', indicator=True)
+master.to_csv(f'{clean_data}/msa_bea_level_master.csv', index=False) # export to CSV the MSA-based master data
