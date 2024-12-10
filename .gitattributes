@@ -1,0 +1,1 @@
+data/raw/2020_precinct_state/*.csv filter=lfs diff=lfs merge=lfs -text
