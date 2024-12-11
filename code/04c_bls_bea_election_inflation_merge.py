@@ -25,18 +25,29 @@ for offices in ['house', 'senate', 'pres']:
     election_merged = election_merged.drop(columns='merge')
     election_merged_dict[offices] = election_merged
 
-for office, label in zip(['house', 'senate', 'pres'], ['rep', 'rep', 'trump']):
+for office, labels in zip(['house', 'pres', 'senate'], [['dem', 'rep'], ['trump'], ['dem', 'rep']]):
     # with msa's in hand, now let's remake the trump vote share variables:
     df = election_merged_dict[office]
-    df = df.groupby('msa', as_index=False).agg({
-        f'{office} totalvotes, 2020': 'sum',
-        f'{office} totalvotes, 2024': 'sum',
-        f'{office} {label} votecount, 2020': 'sum',
-        f'{office} {label} votecount, 2024': 'sum'
-    })
-    for year in ['2020', '2024']:
-        df[f'{office} {label} %, {year}'] = (df[f'{office} {label} votecount, {year}'] / df[f'{office} totalvotes, {year}']) * 100
-    df[f'{office} {label} 2020-2024 swing'] = df[f'{office} {label} %, 2024'] - df[f'{office} {label} %, 2020']
+    if office == 'pres':
+        df = df.groupby('msa', as_index=False).agg({
+            f'{office} totalvotes, 2020': 'sum',
+            f'{office} totalvotes, 2024': 'sum',
+            f'{office} trump votecount, 2020': 'sum',
+            f'{office} trump votecount, 2024': 'sum'
+        })
+    if office == 'house' or office == 'senate':
+        df = df.groupby('msa', as_index=False).agg({
+            f'{office} totalvotes, 2020': 'sum',
+            f'{office} totalvotes, 2024': 'sum',
+            f'{office} dem votecount, 2020': 'sum',
+            f'{office} dem votecount, 2024': 'sum',
+            f'{office} rep votecount, 2020': 'sum',
+            f'{office} rep votecount, 2024': 'sum'
+        })
+    for label in labels:
+        for year in ['2020', '2024']:
+            df[f'{office} {label} %, {year}'] = (df[f'{office} {label} votecount, {year}'] / df[f'{office} totalvotes, {year}']) * 100
+        df[f'{office} {label} 2020-2024 swing'] = df[f'{office} {label} %, 2024'] - df[f'{office} {label} %, 2020']
     election_merged_dict[office] = df
 # now concatenate horizontally all dataframes in the dictionary
 house = election_merged_dict['house']
