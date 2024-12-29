@@ -13,7 +13,31 @@ input = (work_dir / 'input')
 output = (work_dir / 'output')
 code = Path.cwd() 
 
+offices = ['house', 'senate', 'pres']
+labels = ['rep', 'rep', 'trump']
+formal_labels = ['Republican', 'Republican', 'Trump']
+formal_offices = ['House', 'Senate', 'Presidential']
 
+# read master dataset 
+bls_master = pd.read_csv(f'{clean_data}/msa_bls_level_master.csv')
+bls_master = bls_master[bls_master['_merge'] == 'both']
+# read in BEA master dataset and plot 
+bea_master = pd.read_csv(f'{clean_data}/msa_bea_level_master.csv')
+bea_master = bea_master[bea_master['_merge'] == 'both']
+
+# now let's re-create these plots, but color-code for different categories of the partisan compsotiion of state government 
+state_trifectas = pd.read_csv(f'{clean_data}/state_trifectas_ballotpedia_scrape.csv')
+# restrict to 2023 or 2024, whichever is the most recent present data for each state
+state_trifectas = state_trifectas[state_trifectas['Year'] == 2023]
+# now rename state and filter to the important columns 
+state_trifectas = state_trifectas.rename(columns={'State': 'state'})
+# now make all values of 'state' lowercase 
+state_trifectas['state'] = state_trifectas['state'].str.lower()
+state_trifectas = state_trifectas[['state', 'total_gov']]
+# merge with the master datasets
+bls_master = bls_master.merge(state_trifectas, on='state', how='left')
+bea_master = bea_master.merge(state_trifectas, on='state', how='left')
+# now let's repeat the plotting exercises from above, this time splitting up by state government composition
 def swing_scatterplot(df, categories, office, formal_office, label, formal_label, inflation_var):
         if office == 'house' or office == 'senate':
             # for house/senate, we need to drop all observations where either the dem or republican candidates are 0 (missing) in 2020/2024
@@ -24,53 +48,45 @@ def swing_scatterplot(df, categories, office, formal_office, label, formal_label
             # drop all missing observations for swing / inflation
             category_df = category_df.dropna(subset=[f'{office} {label} 2020-2024 swing', 
                                                      f'cumulative biden {inflation_var}'])
-            x = category_df[f'cumulative biden {inflation_var}']
-            y = category_df[f'{office} {label} 2020-2024 swing']
-            plt.scatter(x, y)
+            for govt, govt_label in zip(['R', 'D', 'Split'], ['Republican', 'Democrat', 'Split']):
+                govt_df = category_df[category_df['total_gov'] == govt]
+                x = govt_df[f'cumulative biden {inflation_var}']
+                y = govt_df[f'{office} {label} 2020-2024 swing']
+                # note that we're making these pretty transparent so we can observe lines of best fit
+                plt.scatter(x, y, color = 'blue' if govt == 'R' else 'red' if govt == 'D' else 'green',
+                            alpha=0.05, edgecolors='none')
+                try:
+                    slope, intercept, r_value, p_value, std_err = linregress(x, y)
+                    line = slope * x + intercept
+                except:
+                    print(f'Error in fitting linear line of best fit for {office} {category}')
+                    continue
+                plt.plot(x, line, color= 'blue' if govt == 'R' else 'red' if govt == 'D' else 'green', 
+                         label=f"Best Fit for {govt_label}: y={slope:.2f}x+{intercept:.2f}")
             plt.axhline(y=0, color='black', linestyle='--')
-            try:
-                slope, intercept, r_value, p_value, std_err = linregress(x, y)
-                line = slope * x + intercept
-            except:
-                print(f'Error in fitting linear line of best fit for {office} {category}')
-                continue
-            plt.plot(x, line, color='black', label=f"Best Fit: y={slope:.2f}x+{intercept:.2f}")
             plt.title(f'{formal_office.title()} {formal_label.title()} Vote Change and Cumulative Inflation, MSA Level, \n Jan. 2021 - Sept. 2024, Category: {category.title()}')
             plt.xlabel('Cumulative Inflation (%)')
             plt.ylabel(f'{formal_office.title()} {formal_label.title()} Vote Change Since 2020')
             plt.grid(True)
             plt.tight_layout(pad=2.0)
-            #plt.legend()
+            plt.legend()
             plt.savefig(f'{output}/{office}_{category}_msa_swing_scatter.png')
-            plt.close()
+            plt.show()
 
-offices = ['house', 'senate', 'pres']
-labels = ['rep', 'rep', 'trump']
-formal_labels = ['Republican', 'Republican', 'Trump']
-formal_offices = ['House', 'Senate', 'Presidential']
-
-# read master dataset 
-bls_master = pd.read_csv(f'{clean_data}/msa_bls_level_master.csv')
-bls_master = bls_master[bls_master['_merge'] == 'both']
 bls_categories = ['rent', 'food', 'apparel', 'transportation', 'medical care', 
               'recreation', 'education and communication', 'motor fuel']
 for office, label, formal_label, formal_office in zip(offices, labels, 
                                                       formal_labels, formal_offices):
     swing_scatterplot(bls_master, bls_categories, office, formal_office, 
                       label, formal_label, 'inflation')
-
-# read in BEA master dataset and plot 
-bea_master = pd.read_csv(f'{clean_data}/msa_bea_level_master.csv')
-bea_master = bea_master[bea_master['_merge'] == 'both']
 bea_categories = ['all items', 'goods', 'housing', 'other services', 'utilities']
 for office, label, formal_label, formal_office in zip(offices, labels, 
                                                       formal_labels, formal_offices):
     swing_scatterplot(bea_master, bea_categories, office, 
                       formal_office, label, formal_label, 'rpp percent change')
-    
+
 # now let's plot how far ahead senate/house candidates ran in 2024 
 offices = ['house', 'senate']
-
 for df, categories, inflation_var in zip([bls_master, bea_master], 
                                                [bls_categories, bea_categories],
                                                ['inflation', 'rpp percent change']):
@@ -83,20 +99,26 @@ for df, categories, inflation_var in zip([bls_master, bea_master],
         for category in categories:
             category_df = temp_df[temp_df['category'] == category]
             category_df = category_df.dropna(subset=[f'{office} {label} %, 2024'])
-            x = category_df[f'cumulative biden {inflation_var}']
-            y = category_df['rep run ahead of trump %']
-            plt.scatter(x, y)
-            try:
-                slope, intercept, r_value, p_value, std_err = linregress(x, y)
-                line = slope * x + intercept
-                plt.plot(x, line, color='black', label=f"Best Fit: y={slope:.2f}x+{intercept:.2f}")
-            except:
-                print(f'Error in fitting linear line of best fit for {office} {category}')
-                continue
+            for govt, govt_label in zip(['R', 'D', 'Split'], ['Republican', 'Democrat', 'Split']):
+                govt_df = category_df[category_df['total_gov'] == govt]
+                x = govt_df[f'cumulative biden {inflation_var}']
+                y = govt_df['rep run ahead of trump %']
+                plt.scatter(x, y, color = 'blue' if govt == 'R' else 'red' if govt == 'D' else 'green',
+                            alpha=0.05, edgecolors='none')
+                try:
+                    slope, intercept, r_value, p_value, std_err = linregress(x, y)
+                    line = slope * x + intercept
+                    plt.plot(x, line, 
+                             color= 'blue' if govt == 'R' else 'red' if govt == 'D' else 'green', 
+                             label=f"Best Fit for {govt_label}: y={slope:.2f}x+{intercept:.2f}")
+                except:
+                    print(f'Error in fitting linear line of best fit for {office} {category}')
+                    continue
             plt.title(f'{formal_office.title()} Republican - Trump Vote Share , MSA Level, \n 2020 vs. 2024, Category: {category.title()}')
             plt.xlabel(f'Cumulative Biden {inflation_var.title()} (%)')
             plt.ylabel(f'{formal_office.title()} Republican - Trump Vote Share, 2024 (%)')
             plt.grid(True)
             plt.tight_layout(pad=2.0)
+            plt.legend()
             plt.savefig(f'{output}/{office}_{category}_rep_run_ahead_of_trump.png')
             plt.show()

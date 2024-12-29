@@ -10,6 +10,61 @@ input = (work_dir / 'input')
 output = (work_dir / 'output')
 code = Path.cwd() 
 
+
+# define priority_order for states that we'll use for state-msa mapping
+priority_order = [
+    "california",
+    "texas",
+    "florida",
+    "new york",
+    "pennsylvania",
+    "illinois",
+    "ohio",
+    "georgia",
+    "north carolina",
+    "michigan",
+    "new jersey",
+    "virginia",
+    "washington",
+    "arizona",
+    "massachusetts",
+    "tennessee",
+    "indiana",
+    "missouri",
+    "maryland",
+    "wisconsin",
+    "colorado",
+    "minnesota",
+    "south carolina",
+    "alabama",
+    "louisiana",
+    "kentucky",
+    "oregon",
+    "oklahoma",
+    "connecticut",
+    "utah",
+    "iowa",
+    "nevada",
+    "arkansas",
+    "mississippi",
+    "kansas",
+    "new mexico",
+    "nebraska",
+    "idaho",
+    "west virginia",
+    "hawaii",
+    "new hampshire",
+    "maine",
+    "montana",
+    "rhode island",
+    "delaware",
+    "south dakota",
+    "north dakota",
+    "alaska",
+    "vermont",
+    "wyoming"
+]
+
 county_state_crosswalk = pd.read_csv(f'{clean_data}/county_msa_crosswalk_cleaned.csv')
 # read inflation data into file
 bls_msa_cpi = pd.read_csv(f'{clean_data}/cpi_cumulative.csv')
@@ -24,6 +79,17 @@ for offices in ['house', 'senate', 'pres']:
     election_merged = election_merged[election_merged['merge'] == 'both'] # filter to BOTH
     election_merged = election_merged.drop(columns='merge')
     election_merged_dict[offices] = election_merged
+
+# we want a crosswalk from msa to county_name (prioritizing states by population)
+def prioritize_state(states):
+    for state in priority_order:
+        if state in states:
+            return state
+    return states[0]  # Default to the first state if none in priority_order match
+
+state_crosswalk = election_merged_dict['pres'].groupby('msa', as_index=False).agg({
+    'state': lambda x: prioritize_state(x.unique())
+})
 
 for office, labels in zip(['house', 'pres', 'senate'], [['dem', 'rep'], ['trump'], ['dem', 'rep']]):
     # with msa's in hand, now let's remake the trump vote share variables:
@@ -56,6 +122,8 @@ trump = election_merged_dict['pres']
 #merge everything 
 election_data = pd.merge(house, senate, on='msa', how='outer', indicator='senate-house _merge')
 election_data = pd.merge(election_data, trump, on='msa', how='outer', indicator='congress-trump _merge')
+# now merge back on state as a variable 
+election_data = election_data.merge(state_crosswalk, on='msa', how='outer', indicator=False)
 # now merge inflation data with election data
 master = election_data.merge(bls_msa_cpi, on='msa', how='outer', indicator=True)
 master.to_csv(f'{clean_data}/msa_bls_level_master.csv', index=False) # export to CSV the MSA-based master data
