@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[portrait, margin=0.25in]{geometry}
+\usepackage{graphicx} 
+\graphicspath{{/Users/danpost/election_inflation_analysis/output}}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{threeparttable}
+\usepackage{subfig}
+\usepackage{amsfonts}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{float} 
+\usepackage{placeins}
+
+\title{Inflation and the 2024 Election}
+\author{Daniel Posthumus and Thuy Le}
+
+\begin{document}
+
+\maketitle 
+
+\section{Summary}
+
+This is an extension of our write-up trying to match inflation to swings towards Trump. We intuit that the current partisan control of MSAs is one mechanism through which voters perceive the economy, perceptions which they use to make voting decisions. To check this, we incorporate controls related to the current partisan control of MSAs. 
+
+The key takeaway is that it appears voters' reactions to inflation appears structurally different across states, depending on the partisan composition of state government. In particular, it appears that only in states where government was split is there any sort of suggestion of a significant association between intra-MSA variation in inflation and intra-MSA variation in swings towards Trump from 2020-2024.
+
+\section{Results}
+
+The following regression results report the point estimates fitting this linear equation (using cluster-robust errors and OLS):
+\begin{gather}
+\begin{split}
+	\text{SWING}_i = \alpha_0 + \beta_1 (\text{R}_i \times \text{Biden\_RPP\_Change}_i) + \beta_2 (\text{D}_i \times \text{Biden\_RPP\_Change}_i) + \beta_3 (\text{SPLIT}_i \times \text{Biden\_RPP\_Change}_i)  \\
+	+ \beta_4 \text{R}_i + \beta_5 \text{D}_i + \beta_6 \text{SPLIT}_i + \beta_7 \text{Biden\_RPP\_Change}_i + \epsilon_i
+\end{split}
+\end{gather}
+where R$_i$, D$_i$, and SPLIT$_i$ are dummy variables referring to whether the state in which a particular MSA, denoted by $i$, is governed by either a unified Republican, unified Democrat, or split government (this data was scraped from Ballotpedia -- shoutout Caleb Brobst for providing the web scraping code).\footnote{Since some MSAs span state lines,, in cases where an MSA matched to multiple states, I defaulted to the state higher in population. This was an imperfect solution, I can customize a matching function.}
+
+In the `pres' results, we focus on 2020-2024 swings towards President Trump and for `house' results, we focus on 2020 - 2024 swings towards the Republican house presidential candidate. 
+
+\input{msa_inflation_reg_pres.tex}
+
+\input{msa_inflation_reg_house.tex}
+
+\end{document}

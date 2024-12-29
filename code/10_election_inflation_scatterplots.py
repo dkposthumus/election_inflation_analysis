@@ -24,19 +24,6 @@ bls_master = bls_master[bls_master['_merge'] == 'both']
 # read in BEA master dataset and plot 
 bea_master = pd.read_csv(f'{clean_data}/msa_bea_level_master.csv')
 bea_master = bea_master[bea_master['_merge'] == 'both']
-
-# now let's re-create these plots, but color-code for different categories of the partisan compsotiion of state government 
-state_trifectas = pd.read_csv(f'{clean_data}/state_trifectas_ballotpedia_scrape.csv')
-# restrict to 2023 or 2024, whichever is the most recent present data for each state
-state_trifectas = state_trifectas[state_trifectas['Year'] == 2023]
-# now rename state and filter to the important columns 
-state_trifectas = state_trifectas.rename(columns={'State': 'state'})
-# now make all values of 'state' lowercase 
-state_trifectas['state'] = state_trifectas['state'].str.lower()
-state_trifectas = state_trifectas[['state', 'total_gov']]
-# merge with the master datasets
-bls_master = bls_master.merge(state_trifectas, on='state', how='left')
-bea_master = bea_master.merge(state_trifectas, on='state', how='left')
 # now let's repeat the plotting exercises from above, this time splitting up by state government composition
 def swing_scatterplot(df, categories, office, formal_office, label, formal_label, inflation_var):
         if office == 'house' or office == 'senate':
@@ -71,7 +58,7 @@ def swing_scatterplot(df, categories, office, formal_office, label, formal_label
             plt.tight_layout(pad=2.0)
             plt.legend()
             plt.savefig(f'{output}/{office}_{category}_msa_swing_scatter.png')
-            plt.show()
+            plt.close()
 
 bls_categories = ['rent', 'food', 'apparel', 'transportation', 'medical care', 
               'recreation', 'education and communication', 'motor fuel']
@@ -121,4 +108,4 @@ for df, categories, inflation_var in zip([bls_master, bea_master],
             plt.tight_layout(pad=2.0)
             plt.legend()
             plt.savefig(f'{output}/{office}_{category}_rep_run_ahead_of_trump.png')
-            plt.show()
+            plt.close()

@@ -54,5 +54,7 @@ msa_rpp_df.rename(columns = {
     'GeoName': 'msa',
     'Description': 'category'
     }, inplace=True)
+# let's collapse so that we only have cumulative biden inflation 
+msa_rpp_df = msa_rpp_df.groupby(['msa', 'category'])['cumulative biden rpp percent change'].mean().reset_index()
 # save the dataset
 msa_rpp_df.to_csv(f'{clean_data}/bea_msa_rpp.csv', index=False)

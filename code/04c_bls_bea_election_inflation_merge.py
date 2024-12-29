@@ -10,7 +10,6 @@ input = (work_dir / 'input')
 output = (work_dir / 'output')
 code = Path.cwd() 
 
-
 # define priority_order for states that we'll use for state-msa mapping
 priority_order = [
     "california",
@@ -125,8 +124,21 @@ election_data = pd.merge(election_data, trump, on='msa', how='outer', indicator=
 # now merge back on state as a variable 
 election_data = election_data.merge(state_crosswalk, on='msa', how='outer', indicator=False)
 # now merge inflation data with election data
-master = election_data.merge(bls_msa_cpi, on='msa', how='outer', indicator=True)
-master.to_csv(f'{clean_data}/msa_bls_level_master.csv', index=False) # export to CSV the MSA-based master data
+bls_master = election_data.merge(bls_msa_cpi, on='msa', how='outer', indicator=True)
+bea_master = election_data.merge(bea_msa_rpp, on='msa', how='outer', indicator=True)
 
-master = election_data.merge(bea_msa_rpp, on='msa', how='outer', indicator=True)
-master.to_csv(f'{clean_data}/msa_bea_level_master.csv', index=False) # export to CSV the MSA-based master data
+# now let's re-create these plots, but color-code for different categories of the partisan compsotiion of state government 
+state_trifectas = pd.read_csv(f'{clean_data}/state_trifectas_ballotpedia_scrape.csv')
+# restrict to 2023 or 2024, whichever is the most recent present data for each state
+state_trifectas = state_trifectas[state_trifectas['Year'] == 2023]
+# now rename state and filter to the important columns 
+state_trifectas = state_trifectas.rename(columns={'State': 'state'})
+# now make all values of 'state' lowercase 
+state_trifectas['state'] = state_trifectas['state'].str.lower()
+state_trifectas = state_trifectas[['state', 'total_gov']]
+# merge with the master datasets
+bls_master = bls_master.merge(state_trifectas, on='state', how='left')
+bea_master = bea_master.merge(state_trifectas, on='state', how='left')
+
+bls_master.to_csv(f'{clean_data}/msa_bls_level_master.csv', index=False) # export to CSV the MSA-based master data
+bea_master.to_csv(f'{clean_data}/msa_bea_level_master.csv', index=False) # export to CSV the MSA-based master data
