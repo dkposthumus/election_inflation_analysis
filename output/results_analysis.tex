@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage[portrait, margin=0.25in]{geometry}
+\usepackage[landscape, margin=0.25in]{geometry}
 \usepackage{graphicx} 
 \graphicspath{{/Users/danpost/election_inflation_analysis/output}}
 \usepackage{amsmath}
@@ -11,9 +11,10 @@
 \usepackage{amssymb}
 \usepackage{float} 
 \usepackage{placeins}
+\usepackage{subcaption}
 
 \title{Inflation and the 2024 Election}
-\author{Daniel Posthumus and Thuy Le}
+\author{Daniel Posthumus}
 
 \begin{document}
 
@@ -41,5 +42,25 @@ In the `pres' results, we focus on 2020-2024 swings towards President Trump and 
 \input{msa_inflation_reg_pres.tex}
 
 \input{msa_inflation_reg_house.tex}
+
+For context, we can focus on the `goods' category of inflation and visualize the following scatterplots:
+
+\begin{figure}[ht]
+\centering
+\begin{subfigure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{pres_goods_msa_swing_scatter.png}
+\end{subfigure}
+\caption{Swing Towards President Trump}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\begin{subfigure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{house_goods_msa_swing_scatter.png}
+\end{subfigure}
+\caption{Swing Towards Republican House Candidates}
+\end{figure}
 
 \end{document}

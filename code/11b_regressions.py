@@ -11,6 +11,7 @@ data = (work_dir / 'data')
 raw_data = (data / 'raw')
 clean_data = (data / 'clean')
 input = (work_dir / 'input')
+
 output = (work_dir / 'output')
 code = Path.cwd() 
 
@@ -23,6 +24,17 @@ bea_master = pd.get_dummies(bea_master, columns=['total_gov'], prefix='gov')
 
 offices = ['house', 'pres']
 labels = ['rep', 'trump']
+
+def format_with_significance(estimate, std_error, p_value):
+    if p_value < 0.01:
+        significance = '***'
+    elif p_value < 0.05:
+        significance = '**'
+    elif p_value < 0.1:
+        significance = '*'
+    else:
+        significance = ''
+    return f"{estimate:.3f} ({std_error:.3f}){significance}"
 
 results = {}
 # now run regression, where vote swing FOR trump is the outcome variable and we have dummy variables for each of the 3 possible values for 'total_gov' ('R', 'D', 'Split')
@@ -55,7 +67,10 @@ for office, label in zip(offices, labels):
         # Extract results for the current category
         result = {'office': office, 'label': label, 'category': category}
         for var in model.params.index:
-            result[var] = f"{model.params[var]:.3f} ({model.bse[var]:.3f})"  # Combine estimate and SE
+            estimate = model.params[var]
+            std_error = model.bse[var]
+            p_value = model.pvalues[var]
+            result[var] = format_with_significance(estimate, std_error, p_value)  # Format with asterisks
         results_list.append(result)
     results_df = pd.DataFrame(results_list)
     results_df.drop(columns=['office', 'label',
@@ -74,7 +89,8 @@ for office, label in zip(offices, labels):
     )
     latex_table = latex_table.replace('\\begin{table}', '\\begin{table}[H]')
     # Save to a .tex file
-    with open(f'{output}/msa_inflation_reg_{office}.tex', 'w') as f:
+    file_path = f'{output}/msa_inflation_reg_{office}.tex'
+    with open(file_path, 'w') as f:
         f.write(latex_table)
     # Print LaTeX table for review
     #print(latex_table)
