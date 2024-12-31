@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.31)  30 DEC 2024 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.31)  30 DEC 2024 17:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -276,44 +276,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2024/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box53
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen164
-\captionmargin=\dimen165
-\caption@leftmargin=\dimen166
-\caption@rightmargin=\dimen167
-\caption@width=\dimen168
-\caption@indent=\dimen169
-\caption@parindent=\dimen170
-\caption@hangindent=\dimen171
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count289
-\c@continuedfloat=\count290
-Package caption Info: hyperref package is loaded.
-Package caption Info: threeparttable package is loaded.
-)
-\c@KVtest=\count291
-\sf@farskip=\skip54
-\sf@captopadj=\dimen172
-\sf@capskip=\skip55
-\sf@nearskip=\skip56
-\c@subfigure=\count292
-\c@subfigure@save=\count293
-\c@lofdepth=\count294
-\c@subtable=\count295
-\c@subtable@save=\count296
-\c@lotdepth=\count297
-\sf@top=\skip57
-\sf@bottom=\skip58
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -322,26 +285,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count298
+\lst@mode=\count289
 \lst@gtempboxa=\box54
 \lst@token=\toks24
-\lst@length=\count299
-\lst@currlwidth=\dimen173
-\lst@column=\count300
-\lst@pos=\count301
-\lst@lostspace=\dimen174
-\lst@width=\dimen175
-\lst@newlines=\count302
-\lst@lineno=\count303
-\lst@maxwidth=\dimen176
+\lst@length=\count290
+\lst@currlwidth=\dimen164
+\lst@column=\count291
+\lst@pos=\count292
+\lst@lostspace=\dimen165
+\lst@width=\dimen166
+\lst@newlines=\count293
+\lst@lineno=\count294
+\lst@maxwidth=\dimen167
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-\c@lstnumber=\count304
-\lst@skipnumbers=\count305
+\c@lstnumber=\count295
+\lst@skipnumbers=\count296
 \lst@framebox=\box55
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
@@ -352,30 +315,49 @@ Package: listings 2024/02/21 1.10 (Carsten Heinz)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count306
-\float@exts=\toks25
-\float@box=\box56
-\@float@everytoks=\toks26
-\@floatcapt=\box57
-)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-LaTeX Info: Redefining \subref on input line 189.
-Package subcaption Info: The counter `subfigure' was already defined by
-(subcaption)             \newsubfloat (offered by the subfig package) on input 
-line 238.
-Package subcaption Info: The counter `subtable' was already defined by
-(subcaption)             \newsubfloat (offered by the subfig package) on input 
-line 238.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen168
+\captionmargin=\dimen169
+\caption@leftmargin=\dimen170
+\caption@rightmargin=\dimen171
+\caption@width=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: threeparttable package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count299
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count300
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count301
+\float@exts=\toks25
+\float@box=\box56
+\@float@everytoks=\toks26
+\@floatcapt=\box57
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
+\l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box58
 )
 (./results_analysis.aux
@@ -385,24 +367,24 @@ LaTeX Warning: Label `tab:regression_results' multiply defined.
 )
 \openout1 = `results_analysis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -440,16 +422,16 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen177
+\scratchcounter=\count303
+\scratchdimen=\dimen176
 \scratchbox=\box59
-\nofMPsegments=\count309
-\nofMParguments=\count310
+\nofMPsegments=\count304
+\nofMParguments=\count305
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen178
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen177
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
 \everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -460,25 +442,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 20.
 
 (./results_analysis.out) (./results_analysis.out)
 \@outlinefile=\write3
 \openout3 = `results_analysis.out'.
 
+\c@lstlisting=\count309
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
-Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count314
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -547,74 +527,47 @@ and I'll forget about whatever was undefined.
 ) [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<pres_goods_Split_msa_swing_scatter.png, id=31, 462.528pt x 346.896pt>
+File: pres_goods_Split_msa_swing_scatter.png Graphic file (type png)
+<use pres_goods_Split_msa_swing_scatter.png>
+Package pdftex.def Info: pres_goods_Split_msa_swing_scatter.png  used on input 
+line 53.
+(pdftex.def)             Requested size: 303.52936pt x 227.65523pt.
+<pres_goods_D_msa_swing_scatter.png, id=33, 462.528pt x 346.896pt>
+File: pres_goods_D_msa_swing_scatter.png Graphic file (type png)
+<use pres_goods_D_msa_swing_scatter.png>
+Package pdftex.def Info: pres_goods_D_msa_swing_scatter.png  used on input line
+ 57.
+(pdftex.def)             Requested size: 303.52936pt x 227.65523pt.
+<pres_goods_R_msa_swing_scatter.png, id=34, 462.528pt x 346.896pt>
+File: pres_goods_R_msa_swing_scatter.png Graphic file (type png)
+<use pres_goods_R_msa_swing_scatter.png>
+Package pdftex.def Info: pres_goods_R_msa_swing_scatter.png  used on input line
+ 62.
+(pdftex.def)             Requested size: 303.52936pt x 227.65523pt.
+<house_goods_Split_msa_swing_scatter.png, id=35, 462.528pt x 346.896pt>
+File: house_goods_Split_msa_swing_scatter.png Graphic file (type png)
+<use house_goods_Split_msa_swing_scatter.png>
+Package pdftex.def Info: house_goods_Split_msa_swing_scatter.png  used on input
+ line 71.
+(pdftex.def)             Requested size: 303.52936pt x 227.65523pt.
+<house_goods_D_msa_swing_scatter.png, id=36, 462.528pt x 346.896pt>
+File: house_goods_D_msa_swing_scatter.png Graphic file (type png)
+<use house_goods_D_msa_swing_scatter.png>
+Package pdftex.def Info: house_goods_D_msa_swing_scatter.png  used on input lin
+e 75.
+(pdftex.def)             Requested size: 303.52936pt x 227.65523pt.
+<house_goods_R_msa_swing_scatter.png, id=37, 462.528pt x 346.896pt>
+File: house_goods_R_msa_swing_scatter.png Graphic file (type png)
+<use house_goods_R_msa_swing_scatter.png>
+Package pdftex.def Info: house_goods_R_msa_swing_scatter.png  used on input lin
+e 80.
+(pdftex.def)             Requested size: 303.52936pt x 227.65523pt.
 
-./results_analysis.tex:50: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 \begin{subfigure}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<pres_goods_msa_swing_scatter.png, id=31, 462.528pt x 346.896pt>
-File: pres_goods_msa_swing_scatter.png Graphic file (type png)
-<use pres_goods_msa_swing_scatter.png>
-Package pdftex.def Info: pres_goods_msa_swing_scatter.png  used on input line 5
-2.
-(pdftex.def)             Requested size: 379.4175pt x 284.5783pt.
-
-./results_analysis.tex:53: LaTeX Error: \begin{figure} on input line 48 ended b
-y \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 \end{subfigure}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./results_analysis.tex:59: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 \begin{subfigure}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<house_goods_msa_swing_scatter.png, id=33, 462.528pt x 346.896pt>
-File: house_goods_msa_swing_scatter.png Graphic file (type png)
-<use house_goods_msa_swing_scatter.png>
-Package pdftex.def Info: house_goods_msa_swing_scatter.png  used on input line 
-61.
-(pdftex.def)             Requested size: 379.4175pt x 284.5783pt.
-
-./results_analysis.tex:62: LaTeX Error: \begin{figure} on input line 57 ended b
-y \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 \end{subfigure}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[2 <./pres_goods_msa_swing_scatter.png>] [3 <./house_goods_msa_swing_scatter.pn
-g>] (./results_analysis.aux)
+[2] [3 <./pres_goods_Split_msa_swing_scatter.png> <./pres_goods_D_msa_swing_sca
+tter.png> <./pres_goods_R_msa_swing_scatter.png>] [4 <./house_goods_Split_msa_s
+wing_scatter.png> <./house_goods_D_msa_swing_scatter.png> <./house_goods_R_msa_
+swing_scatter.png>] (./results_analysis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -627,13 +580,13 @@ Package rerunfilecheck Info: File `results_analysis.out' has not changed.
 (rerunfilecheck)             Checksum: 46D56D01713CB1644DBFAD41918DB520;156.
  ) 
 Here is how much of TeX's memory you used:
- 13128 strings out of 474116
- 205793 string characters out of 5743682
+ 13029 strings out of 474116
+ 204761 string characters out of 5743682
  1947187 words of memory out of 5000000
- 35325 multiletter control sequences out of 15000+600000
+ 35228 multiletter control sequences out of 15000+600000
  565317 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,79p,574b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,573b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
@@ -644,10 +597,10 @@ cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
 xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on results_analysis.pdf (3 pages, 214910 bytes).
+Output written on results_analysis.pdf (4 pages, 268712 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 27 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 47 words of extra memory for PDF output out of 10000 (max. 10000000)
 

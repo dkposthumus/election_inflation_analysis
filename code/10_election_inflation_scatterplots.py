@@ -40,7 +40,7 @@ def swing_scatterplot(df, categories, office, formal_office, label, formal_label
                 x = govt_df[f'cumulative biden {inflation_var}']
                 y = govt_df[f'{office} {label} 2020-2024 swing']
                 # note that we're making these pretty transparent so we can observe lines of best fit
-                plt.scatter(x, y, color = 'blue' if govt == 'R' else 'red' if govt == 'D' else 'green',
+                plt.scatter(x, y, color= 'blue' if govt == 'D' else 'red' if govt == 'R' else 'green', 
                             alpha=0.05, edgecolors='none')
                 try:
                     slope, intercept, r_value, p_value, std_err = linregress(x, y)
@@ -48,7 +48,7 @@ def swing_scatterplot(df, categories, office, formal_office, label, formal_label
                 except:
                     print(f'Error in fitting linear line of best fit for {office} {category}')
                     continue
-                plt.plot(x, line, color= 'blue' if govt == 'R' else 'red' if govt == 'D' else 'green', 
+                plt.plot(x, line, color= 'blue' if govt == 'D' else 'red' if govt == 'R' else 'green',  
                          label=f"Best Fit for {govt_label}: y={slope:.2f}x+{intercept:.2f}")
             plt.axhline(y=0, color='black', linestyle='--')
             plt.title(f'{formal_office.title()} {formal_label.title()} Vote Change and Cumulative Inflation, MSA Level, \n Jan. 2021 - Sept. 2024, Category: {category.title()}')
@@ -90,13 +90,13 @@ for df, categories, inflation_var in zip([bls_master, bea_master],
                 govt_df = category_df[category_df['total_gov'] == govt]
                 x = govt_df[f'cumulative biden {inflation_var}']
                 y = govt_df['rep run ahead of trump %']
-                plt.scatter(x, y, color = 'blue' if govt == 'R' else 'red' if govt == 'D' else 'green',
+                plt.scatter(x, y, color= 'blue' if govt == 'D' else 'red' if govt == 'R' else 'green',
                             alpha=0.05, edgecolors='none')
                 try:
                     slope, intercept, r_value, p_value, std_err = linregress(x, y)
                     line = slope * x + intercept
                     plt.plot(x, line, 
-                             color= 'blue' if govt == 'R' else 'red' if govt == 'D' else 'green', 
+                             color= 'blue' if govt == 'D' else 'red' if govt == 'R' else 'green',  
                              label=f"Best Fit for {govt_label}: y={slope:.2f}x+{intercept:.2f}")
                 except:
                     print(f'Error in fitting linear line of best fit for {office} {category}')
@@ -109,3 +109,47 @@ for df, categories, inflation_var in zip([bls_master, bea_master],
             plt.legend()
             plt.savefig(f'{output}/{office}_{category}_rep_run_ahead_of_trump.png')
             plt.close()
+
+# now we want some more specific scatterplots
+def swing_scatterplot(df, categories, office, formal_office, label, formal_label, inflation_var):
+        if office == 'house' or office == 'senate':
+            # for house/senate, we need to drop all observations where either the dem or republican candidates are 0 (missing) in 2020/2024
+            for party in ['dem', 'rep']:
+                df = df[(df[f'{office} {party} votecount, 2020'] > 0) & df[f'{office} {party} votecount, 2024'] > 0]
+        for category in categories:
+            category_df = df[df['category'] == category]
+            # drop all missing observations for swing / inflation
+            category_df = category_df.dropna(subset=[f'{office} {label} 2020-2024 swing', 
+                                                     f'cumulative biden {inflation_var}'])
+            for govt, govt_label in zip(['R', 'D', 'Split'], ['Republican', 'Democrat', 'Split']):
+                govt_df = category_df[category_df['total_gov'] == govt]
+                x = govt_df[f'cumulative biden {inflation_var}']
+                y = govt_df[f'{office} {label} 2020-2024 swing']
+                # note that we're making these pretty transparent so we can observe lines of best fit
+                plt.scatter(x, y, color= 'blue' if govt == 'D' else 'red' if govt == 'R' else 'green')
+                try:
+                    slope, intercept, r_value, p_value, std_err = linregress(x, y)
+                    line = slope * x + intercept
+                except:
+                    print(f'Error in fitting linear line of best fit for {office} {category}')
+                    continue
+                plt.plot(x, line, color= 'blue' if govt == 'D' else 'red' if govt == 'R' else 'green', 
+                         label=f"Best Fit for {govt_label}: y={slope:.2f}x+{intercept:.2f}")
+                plt.axhline(y=0, color='black', linestyle='--')
+                plt.title(f'{govt_label} State Government MSAs')
+                plt.xlabel('Cumulative Inflation (%)')
+                plt.ylabel(f'{formal_office.title()} {formal_label.title()} Vote Change Since 2020')
+                plt.grid(True)
+                plt.tight_layout(pad=2.0)
+                plt.legend()
+                plt.savefig(f'{output}/{office}_{category}_{govt}_msa_swing_scatter.png')
+                plt.show()
+categories = ['goods']
+offices = ['house', 'pres']
+labels = ['rep', 'trump']
+formal_labels = ['Republican', 'Trump']
+formal_offices = ['House', 'Presidential']
+for office, label, formal_label, formal_office in zip(offices, labels, 
+                                                      formal_labels, formal_offices):
+    swing_scatterplot(bea_master, categories, office, 
+                      formal_office, label, formal_label, 'rpp percent change')

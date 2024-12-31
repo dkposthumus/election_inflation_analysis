@@ -5,13 +5,14 @@
 \usepackage{amsmath}
 \usepackage{hyperref}
 \usepackage{threeparttable}
-\usepackage{subfig}
 \usepackage{amsfonts}
 \usepackage{listings}
 \usepackage{amssymb}
-\usepackage{float} 
 \usepackage{placeins}
 \usepackage{subcaption}
+\usepackage{float}
+%\usepackage{subfigure}
+%\usepackage{caption}
 
 \title{Inflation and the 2024 Election}
 \author{Daniel Posthumus}
@@ -35,9 +36,9 @@ The following regression results report the point estimates fitting this linear 
 	+ \beta_4 \text{R}_i + \beta_5 \text{D}_i + \beta_6 \text{SPLIT}_i + \beta_7 \text{Biden\_RPP\_Change}_i + \epsilon_i
 \end{split}
 \end{gather}
-where R$_i$, D$_i$, and SPLIT$_i$ are dummy variables referring to whether the state in which a particular MSA, denoted by $i$, is governed by either a unified Republican, unified Democrat, or split government (this data was scraped from Ballotpedia -- shoutout Caleb Brobst for providing the web scraping code).\footnote{Since some MSAs span state lines,, in cases where an MSA matched to multiple states, I defaulted to the state higher in population. This was an imperfect solution, I can customize a matching function.}
+where R$_i$, D$_i$, and SPLIT$_i$ are dummy variables referring to whether the state in which a particular MSA, denoted by $i$, is governed by either a unified Republican, unified Democrat, or split government (this data was scraped from Ballotpedia -- shoutout Caleb Brobst for providing the web scraping code).\footnote{Since some MSAs span state lines, in cases where an MSA matched to multiple states, I defaulted to the state higher in population. This was an imperfect solution, I can customize a matching function.}
 
-In the `pres' results, we focus on 2020-2024 swings towards President Trump and for `house' results, we focus on 2020 - 2024 swings towards the Republican house presidential candidate. 
+In the `pres' results, we focus on 2020-2024 swings towards President Trump and for `house' results, we focus on 2020 - 2024 swings towards the Republican House of Representatives candidate. 
 
 \input{msa_inflation_reg_pres.tex}
 
@@ -47,20 +48,38 @@ For context, we can focus on the `goods' category of inflation and visualize the
 
 \begin{figure}[ht]
 \centering
-\begin{subfigure}
+\begin{subfigure}[b]{0.4\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth]{pres_goods_msa_swing_scatter.png}
+    \includegraphics[width=\textwidth]{pres_goods_Split_msa_swing_scatter.png}
 \end{subfigure}
-\caption{Swing Towards President Trump}
+\begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{pres_goods_D_msa_swing_scatter.png}
+\end{subfigure}
+
+\begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{pres_goods_R_msa_swing_scatter.png}
+\end{subfigure}
+\caption{Swing Towards President Trump, by State Government Partisan Composition}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\begin{subfigure}
+\begin{subfigure}[b]{0.4\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth]{house_goods_msa_swing_scatter.png}
+    \includegraphics[width=\textwidth]{house_goods_Split_msa_swing_scatter.png}
 \end{subfigure}
-\caption{Swing Towards Republican House Candidates}
+\begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{house_goods_D_msa_swing_scatter.png}
+\end{subfigure}
+
+\begin{subfigure}[b]{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{house_goods_R_msa_swing_scatter.png}
+\end{subfigure}
+\caption{Swing Towards Republican House Candidates, by State Government Partisan Composition}
 \end{figure}
 
 \end{document}
