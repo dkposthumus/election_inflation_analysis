@@ -39,6 +39,13 @@ def format_with_significance(estimate, std_error, p_value):
 results = {}
 # now run regression, where vote swing FOR trump is the outcome variable and we have dummy variables for each of the 3 possible values for 'total_gov' ('R', 'D', 'Split')
 bea_categories = ['all items', 'goods', 'housing', 'other services', 'utilities']
+
+# i think there would be some effect of being in a battleground state, where candidates devoted resources for campaigning in the presidential campsigns
+# so let's add a dummy variable for battleground states
+bea_master['battleground'] = bea_master['state'].apply(lambda x: 1 if x in [
+    'georgia', 'pennsylvania', 'michigan', 'wisconsin', 'north carolina', 'nevada', 'arizona'
+] else 0)
+
 for office, label in zip(offices, labels):
     results_list = []
     df = bea_master.copy()
@@ -51,12 +58,17 @@ for office, label in zip(offices, labels):
     for category in bea_categories:
         bea_master_category = df[df['category'] == category]
         bea_master_category = bea_master_category.dropna(subset=['cumulative biden rpp percent change'])
-        X = bea_master_category[['gov_R', 'gov_D', 'gov_Split', 'cumulative biden rpp percent change']]
+        X = bea_master_category[['gov_R', 'gov_D', 'gov_Split', 'cumulative biden rpp percent change', 'battleground']]
         X['R interaction'] = X['gov_R'] * X['cumulative biden rpp percent change']
         X['D interaction'] = X['gov_D'] * X['cumulative biden rpp percent change']
         X['Split interaction'] = X['gov_Split'] * X['cumulative biden rpp percent change']
-        X = X[['R interaction', 'D interaction', 'Split interaction', 'gov_R', 'gov_D', 
-               'gov_Split', 'cumulative biden rpp percent change']]
+        X['battleground interaction'] = X['battleground'] * X['cumulative biden rpp percent change']
+        if office == 'pres':
+            X = X[['R interaction', 'D interaction', 'Split interaction', 'gov_Split', 
+            'cumulative biden rpp percent change', 'battleground', 'battleground interaction']]
+        else:
+            X = X[['R interaction', 'D interaction', 'Split interaction', 'gov_Split', 
+            'cumulative biden rpp percent change']]
         #X = bea_master_category['cumulative biden rpp percent change']
         X = sm.add_constant(X)
         X = X.astype(float)
